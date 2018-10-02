@@ -27,8 +27,8 @@
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
-				width="1215"
-				height="215">
+				width="25"
+				height="25">
 				<defs>
 					<marker
 						id="noarrow"
@@ -139,12 +139,12 @@
 					fill="#FFFFFF"
 				/>
 				<rect
-					x="540"
-					y="60"
+					x="0"
+					y="0"
 					rx="8"
 					ry="8"
-					width="180"
-					height="130"
+					width="0"
+					height="18"
 					style="stroke-width:1;fill:#ECF4E9;fill-opacity:0.6;stroke:#ACB4A9;stroke-dasharray:none;"
 				/>
 				<flowText
@@ -153,10 +153,10 @@
 					fill="rgb(0, 99, 155)">
 					<flowRegion>
 						<rect
-							width="180"
-							height="130"
-							x="540"
-							y="61.25"
+							width="35"
+							height="25"
+							x="0"
+							y="-3.5"
 						/>
 					</flowRegion>
 					<flowDiv>
@@ -165,22 +165,22 @@
 							top-margin="5"
 							left-margin="5"
 							right-margin="5"
-							bottom-margin="5">For Each Person</flowPara>
+							bottom-margin="5">For Each</flowPara>
 					</flowDiv>
 				</flowText>
 				<image
 					xmlns:xlink="http://www.w3.org/1999/xlink"
-					xlink:href="http://nkproc16.otdemo.net:81/home/system/wcp/theme/default/icon/processobject/activity_collapse_sb.gif"
-					x="622"
-					y="173"
+					xlink:href="http://nkproc16.otdemo.net/home/system/wcp/theme/default/icon/processobject/activity_collapse_sb.gif"
+					x="330.01"
+					y="60.01"
 					height="16"
 					width="16"
 				/>
 				<image
 					xmlns:xlink="http://www.w3.org/1999/xlink"
-					xlink:href="http://nkproc16.otdemo.net:81/cordys/wcp/theme/default/icon/processobject/foreach_sb.gif"
-					x="604"
-					y="173"
+					xlink:href="http://nkproc16.otdemo.net/cordys/wcp/theme/default/icon/processobject/foreach_sb.gif"
+					x="330.01"
+					y="60.01"
 					height="16"
 					width="16"
 				/>
@@ -188,7 +188,7 @@
 					fill="none"
 					stroke="#7E857A"
 					stroke-width="1px"
-					points="480,130 532,130"
+					points="700,130 742,130"
 					style="marker-end:url(#blockarrow#7E857A)"
 					stroke-dasharray="none"
 				/>
@@ -196,7 +196,7 @@
 					fill="none"
 					stroke="#7E857A"
 					stroke-width="1px"
-					points="1100,130 1142,130"
+					points="80,130 122,130"
 					style="marker-end:url(#blockarrow#7E857A)"
 					stroke-dasharray="none"
 				/>
@@ -204,7 +204,7 @@
 					fill="none"
 					stroke="#7E857A"
 					stroke-width="1px"
-					points="80,130 132,130"
+					points="270,130 322,130"
 					style="marker-end:url(#blockarrow#7E857A)"
 					stroke-dasharray="none"
 				/>
@@ -212,23 +212,7 @@
 					fill="none"
 					stroke="#7E857A"
 					stroke-width="1px"
-					points="280,130 332,130"
-					style="marker-end:url(#blockarrow#7E857A)"
-					stroke-dasharray="none"
-				/>
-				<polyline
-					fill="none"
-					stroke="#7E857A"
-					stroke-width="1px"
-					points="720,130 762,130"
-					style="marker-end:url(#blockarrow#7E857A)"
-					stroke-dasharray="none"
-				/>
-				<polyline
-					fill="none"
-					stroke="#7E857A"
-					stroke-width="1px"
-					points="910,130 952,130"
+					points="510,130 552,130"
 					style="marker-end:url(#blockarrow#7E857A)"
 					stroke-dasharray="none"
 				/>
@@ -248,9 +232,9 @@
 					/>
 				</linearGradient>
 				<circle
-					cx="60"
-					cy="130"
-					r="20"
+					cx="0"
+					cy="0"
+					r="0"
 					style="stroke:#4E8D6D;stroke-width:1;fill:url(#o_1);;stroke-dasharray:none;"
 				/>
 				<linearGradient
@@ -269,12 +253,12 @@
 					/>
 				</linearGradient>
 				<rect
-					x="560"
-					y="90"
+					x="0"
+					y="0"
 					rx="5"
 					ry="5"
-					width="140"
-					height="80"
+					width="0"
+					height="18"
 					style="stroke-width:1;fill:url(#o_57);stroke:#698BC4;stroke-dasharray:none;"
 				/>
 				<flowText
@@ -283,10 +267,10 @@
 					fill="rgb(0, 99, 155)">
 					<flowRegion>
 						<rect
-							width="140"
-							height="80"
-							x="560"
-							y="119.25"
+							width="35"
+							height="25"
+							x="0"
+							y="-3.5"
 						/>
 					</flowRegion>
 					<flowDiv>
@@ -295,7 +279,7 @@
 							top-margin="5"
 							left-margin="5"
 							right-margin="5"
-							bottom-margin="5">Join Email</flowPara>
+							bottom-margin="5">Join Values</flowPara>
 					</flowDiv>
 				</flowText>
 				<linearGradient
@@ -314,9 +298,9 @@
 					/>
 				</linearGradient>
 				<circle
-					cx="1170"
-					cy="130"
-					r="20"
+					cx="0"
+					cy="0"
+					r="0"
 					style="stroke:#8A0000;stroke-width:2;fill:url(#o_36);;stroke-dasharray:none;"
 				/>
 				<linearGradient
@@ -335,12 +319,12 @@
 					/>
 				</linearGradient>
 				<rect
-					x="340"
-					y="90"
+					x="0"
+					y="0"
 					rx="5"
 					ry="5"
-					width="140"
-					height="80"
+					width="0"
+					height="18"
 					style="stroke-width:1;fill:url(#o_43);stroke:#698BC4;stroke-dasharray:none;"
 				/>
 				<flowText
@@ -349,10 +333,10 @@
 					fill="rgb(0, 99, 155)">
 					<flowRegion>
 						<rect
-							width="127"
-							height="80"
-							x="353"
-							y="119.25"
+							width="35"
+							height="25"
+							x="13"
+							y="-3.5"
 						/>
 					</flowRegion>
 					<flowDiv>
@@ -361,14 +345,14 @@
 							top-margin="5"
 							left-margin="5"
 							right-margin="5"
-							bottom-margin="5">Read Parties</flowPara>
+							bottom-margin="5">Get Parties</flowPara>
 					</flowDiv>
 				</flowText>
 				<image
 					xmlns:xlink="http://www.w3.org/1999/xlink"
-					xlink:href="http://nkproc16.otdemo.net:81/cordys/wcp/theme/default/icon/processobject/automaticactivity_sb.gif"
-					x="348.01"
-					y="98.01"
+					xlink:href="http://nkproc16.otdemo.net/cordys/wcp/theme/default/icon/processobject/automaticactivity_sb.gif"
+					x="130.01"
+					y="90.01"
 					height="16"
 					width="16"
 				/>
@@ -388,12 +372,12 @@
 					/>
 				</linearGradient>
 				<rect
-					x="960"
-					y="90"
+					x="0"
+					y="0"
 					rx="5"
 					ry="5"
-					width="140"
-					height="80"
+					width="0"
+					height="18"
 					style="stroke-width:1;fill:url(#o_58);stroke:#698BC4;stroke-dasharray:none;"
 				/>
 				<flowText
@@ -402,10 +386,10 @@
 					fill="rgb(0, 99, 155)">
 					<flowRegion>
 						<rect
-							width="127"
-							height="80"
-							x="973"
-							y="112.25"
+							width="35"
+							height="25"
+							x="13"
+							y="-3.5"
 						/>
 					</flowRegion>
 					<flowDiv>
@@ -414,107 +398,17 @@
 							top-margin="5"
 							left-margin="5"
 							right-margin="5"
-							bottom-margin="5">Update Value of Entity</flowPara>
+							bottom-margin="5">Update</flowPara>
 					</flowDiv>
 				</flowText>
 				<image
 					xmlns:xlink="http://www.w3.org/1999/xlink"
-					xlink:href="http://nkproc16.otdemo.net:81/cordys/wcp/theme/default/icon/processobject/automaticactivity_sb.gif"
-					x="968.01"
-					y="98.01"
+					xlink:href="http://nkproc16.otdemo.net/cordys/wcp/theme/default/icon/processobject/automaticactivity_sb.gif"
+					x="560.01"
+					y="90.01"
 					height="16"
 					width="16"
 				/>
-				<linearGradient
-					id="o_71"
-					x1="0%"
-					y1="0%"
-					x2="100%"
-					y2="100%">
-					<stop
-						offset="0%"
-						style="stop-color:RGB(227,258,290)"
-					/>
-					<stop
-						offset="80%"
-						style="stop-color:RGB(189,215,242)"
-					/>
-				</linearGradient>
-				<rect
-					x="140"
-					y="90"
-					rx="5"
-					ry="5"
-					width="140"
-					height="80"
-					style="stroke-width:1;fill:url(#o_71);stroke:#698BC4;stroke-dasharray:none;"
-				/>
-				<flowText
-					xmlns="http://xml.apache.org/batik/ext"
-					font-size="12"
-					fill="rgb(0, 99, 155)">
-					<flowRegion>
-						<rect
-							width="140"
-							height="80"
-							x="140"
-							y="119.25"
-						/>
-					</flowRegion>
-					<flowDiv>
-						<flowPara
-							justification="middle"
-							top-margin="5"
-							left-margin="5"
-							right-margin="5"
-							bottom-margin="5">Setup</flowPara>
-					</flowDiv>
-				</flowText>
-				<linearGradient
-					id="o_80"
-					x1="0%"
-					y1="0%"
-					x2="100%"
-					y2="100%">
-					<stop
-						offset="0%"
-						style="stop-color:RGB(227,258,290)"
-					/>
-					<stop
-						offset="80%"
-						style="stop-color:RGB(189,215,242)"
-					/>
-				</linearGradient>
-				<rect
-					x="770"
-					y="90"
-					rx="5"
-					ry="5"
-					width="140"
-					height="80"
-					style="stroke-width:1;fill:url(#o_80);stroke:#698BC4;stroke-dasharray:none;"
-				/>
-				<flowText
-					xmlns="http://xml.apache.org/batik/ext"
-					font-size="12"
-					fill="rgb(0, 99, 155)">
-					<flowRegion>
-						<rect
-							width="140"
-							height="80"
-							x="770"
-							y="119.25"
-						/>
-					</flowRegion>
-					<flowDiv>
-						<flowPara
-							justification="middle"
-							top-margin="5"
-							left-margin="5"
-							right-margin="5"
-							bottom-margin="5">Remove Initial Separator</flowPara>
-					</flowDiv>
-				</flowText>
 			</svg>
 		</Definitions>
 	</Definition>
@@ -761,7 +655,7 @@
 	<Version>bpmn2.0</Version>
 	<WsdlTargetNamespace></WsdlTargetNamespace>
 	<WsdlUrl></WsdlUrl>
-	<freeObjectId>87</freeObjectId>
+	<freeObjectId>112</freeObjectId>
 	<isChanged></isChanged>
 	<links/>
 	<modelFormatVersion>BOP4_FP1</modelFormatVersion>
@@ -852,7 +746,7 @@
 			RuntimeDocumentID="000C29B1-EAB5-A1E8-B0BA-609001431518">
 			<DocumentID>000C29B1-EAB5-A1E8-B0BA-60900142D518</DocumentID>
 			<Name>For Each</Name>
-			<Description>For Each Person</Description>
+			<Description>For Each</Description>
 			<CreatedBy>psdev</CreatedBy>
 			<CreationDate>2018-09-28T06:47:11.114</CreationDate>
 			<Notes/>
@@ -914,17 +808,17 @@
 				<TranslatableText
 					type="com.cordys.translation.TranslatableText"
 					typeVersion="45C16E88-6F36-465E-B18C-8A01E01D734C"
-					RuntimeDocumentID="000C29B1-EAB5-A1E8-B0BA-6090013A1518">
-					<DocumentID>000C29B1-EAB5-A1E8-B0BA-60900139D518</DocumentID>
-					<Name>000C29B1-EAB5-A1E8-B0BA-60900139D518</Name>
-					<Description>000C29B1-EAB5-A1E8-B0BA-60900139D518</Description>
-					<CreatedBy>psdev</CreatedBy>
-					<CreationDate>2018-09-28T06:47:11.112</CreationDate>
+					RuntimeDocumentID="000C29B1-EAB5-A1E8-B189-6E733E3B9518">
+					<DocumentID>000C29B1-EAB5-A1E8-B189-6E733E3B5518</DocumentID>
+					<Name>000C29B1-EAB5-A1E8-B189-6E733E3B5518</Name>
+					<Description>000C29B1-EAB5-A1E8-B189-6E733E3B5518</Description>
+					<CreatedBy>AppWorks Developer</CreatedBy>
+					<CreationDate>2018-10-02T13:43:50.392</CreationDate>
 					<Notes/>
 					<DeveloperText></DeveloperText>
 					<Identifier>
 						<uri
-							id="000C29B1-EAB5-A1E8-B0BA-6090013A5518"
+							id="000C29B1-EAB5-A1E8-B189-6E733E3BD518"
 						/>
 					</Identifier>
 				</TranslatableText>
@@ -1016,47 +910,13 @@
 				</TranslatableText>
 			</TranslatableName>
 		</End>
-		<SequenceFlow
-			type="com.cordys.bpm.connectors.SequenceFlow"
-			typeVersion="ru3229e8-6598-4208-9804-a6e623c0qyte"
-			RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C1-6F40BAD15518">
-			<DocumentID>000C29B1-EAB5-A1E8-B0C1-6F40BAD11518</DocumentID>
-			<Name>Connector (4)</Name>
-			<Description/>
-			<CreatedBy>psdev</CreatedBy>
-			<CreationDate>2018-09-28T10:04:45.824</CreationDate>
-			<Notes/>
-			<ClassicCondition>false</ClassicCondition>
-			<ConditionExpression></ConditionExpression>
-			<ConditionType></ConditionType>
-			<DocumentationText></DocumentationText>
-			<FontSize>12</FontSize>
-			<Sequence></Sequence>
-			<links/>
-			<ContainerProcess>
-				<uri
-					id="000C29B1-EAB5-A1E8-B0BA-0528330FD518"
-				/>
-			</ContainerProcess>
-			<SourceReference>
-				<uri
-					id="000C29B1-EAB5-A1E8-B0C1-6F40BACF1518"
-				/>
-			</SourceReference>
-			<TargetReference>
-				<uri
-					id="000C29B1-EAB5-A1E8-B0BA-60900142D518"
-				/>
-			</TargetReference>
-			<TranslatableName/>
-		</SequenceFlow>
 		<ServiceTask
 			type="com.cordys.bpm.activity.ServiceTask"
 			typeVersion="001CC435-D795-11E0-FF11-B1382512DF93 ru3229e8-6598-4208-9804-a6e623c0qyte"
 			RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C1-6F40BACF5518">
 			<DocumentID>000C29B1-EAB5-A1E8-B0C1-6F40BACF1518</DocumentID>
 			<Name>GetInterestedParties</Name>
-			<Description>Read Parties</Description>
+			<Description>Get Parties</Description>
 			<CreatedBy>psdev</CreatedBy>
 			<CreationDate>2018-09-28T10:05:25.827</CreationDate>
 			<Notes/>
@@ -1108,7 +968,7 @@
 					RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C1-7BDD890B5518">
 					<DocumentID>000C29B1-EAB5-A1E8-B0C1-7BDD890B1518</DocumentID>
 					<Name>GetInterestedPartiesInput</Name>
-					<Description>Read Parties/GetInterestedPartiesInput</Description>
+					<Description>Get Parties/GetInterestedPartiesInput</Description>
 					<CreatedBy>psdev</CreatedBy>
 					<CreationDate>2018-09-28T10:05:25.827</CreationDate>
 					<Notes/>
@@ -1128,7 +988,7 @@
 					RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C1-7BDD890AD518">
 					<DocumentID>000C29B1-EAB5-A1E8-B0C1-7BDD890A9518</DocumentID>
 					<Name>GetInterestedPartiesOutput</Name>
-					<Description>Read Parties/GetInterestedPartiesOutput</Description>
+					<Description>Get Parties/GetInterestedPartiesOutput</Description>
 					<CreatedBy>psdev</CreatedBy>
 					<CreationDate>2018-09-28T10:05:25.828</CreationDate>
 					<Notes/>
@@ -1177,7 +1037,7 @@
 								operation="Replace Content With"
 								operation2="Select"
 								isNillable="false">
-								<sourceAssign>bpm:JoinedAddreses/bpm:EntityId/text()</sourceAssign>
+								<sourceAssign>instance:instanceProperties/instance:rootEntityInstanceId/text()</sourceAssign>
 							</mapping>
 						</activity>
 					</beforeAssignment>
@@ -1190,17 +1050,17 @@
 				<TranslatableText
 					type="com.cordys.translation.TranslatableText"
 					typeVersion="45C16E88-6F36-465E-B18C-8A01E01D734C"
-					RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C1-7BDD89095518">
-					<DocumentID>000C29B1-EAB5-A1E8-B0C1-7BDD89091518</DocumentID>
-					<Name>000C29B1-EAB5-A1E8-B0C1-7BDD89091518</Name>
-					<Description>000C29B1-EAB5-A1E8-B0C1-7BDD89091518</Description>
-					<CreatedBy>psdev</CreatedBy>
-					<CreationDate>2018-09-28T10:05:25.828</CreationDate>
+					RuntimeDocumentID="000C29B1-EAB5-A1E8-B192-3A7D9CEC9518">
+					<DocumentID>000C29B1-EAB5-A1E8-B192-3A7D9CEC5518</DocumentID>
+					<Name>000C29B1-EAB5-A1E8-B192-3A7D9CEC5518</Name>
+					<Description>000C29B1-EAB5-A1E8-B192-3A7D9CEC5518</Description>
+					<CreatedBy>AppWorks Developer</CreatedBy>
+					<CreationDate>2018-10-02T13:43:50.394</CreationDate>
 					<Notes/>
 					<DeveloperText></DeveloperText>
 					<Identifier>
 						<uri
-							id="000C29B1-EAB5-A1E8-B0C1-7BDD89099518"
+							id="000C29B1-EAB5-A1E8-B187-F8457E5E5518"
 						/>
 					</Identifier>
 				</TranslatableText>
@@ -1217,7 +1077,7 @@
 			RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C1-D34340039518">
 			<DocumentID>000C29B1-EAB5-A1E8-B0C1-D34340035518</DocumentID>
 			<Name>Activity (2)</Name>
-			<Description>Join Email</Description>
+			<Description>Join Values</Description>
 			<CreatedBy>psdev</CreatedBy>
 			<CreationDate>2018-09-28T10:28:05.856</CreationDate>
 			<Notes/>
@@ -1270,11 +1130,11 @@
 								targetId=""
 								isProcessVariable="false"
 								isCaseVariable="false"
-								targetAssign="bpm:JoinedAddreses/bpm:UtilTo"
+								targetAssign="bpm:Variables/bpm:NewValue"
 								operation="Replace Content With"
 								operation2="Expression"
 								isNillable="true">
-								<sourceAssign>concat(bpm:JoinedAddreses/bpm:UtilTo/text(),';',/instance:EachPerson/ns6:Email/text())</sourceAssign>
+								<sourceAssign>concat(bpm:Variables/bpm:NewValue/text(),';',instance:EachPerson/ns6:Email/text())</sourceAssign>
 							</mapping>
 						</activity>
 					</beforeAssignment>
@@ -1287,17 +1147,17 @@
 				<TranslatableText
 					type="com.cordys.translation.TranslatableText"
 					typeVersion="45C16E88-6F36-465E-B18C-8A01E01D734C"
-					RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C1-D34340001518">
-					<DocumentID>000C29B1-EAB5-A1E8-B0C1-D3433FFFD518</DocumentID>
-					<Name>000C29B1-EAB5-A1E8-B0C1-D3433FFFD518</Name>
-					<Description>000C29B1-EAB5-A1E8-B0C1-D3433FFFD518</Description>
-					<CreatedBy>psdev</CreatedBy>
-					<CreationDate>2018-09-28T10:28:05.856</CreationDate>
+					RuntimeDocumentID="000C29B1-EAB5-A1E8-B194-0DA928771518">
+					<DocumentID>000C29B1-EAB5-A1E8-B194-0DA92876D518</DocumentID>
+					<Name>000C29B1-EAB5-A1E8-B194-0DA92876D518</Name>
+					<Description>000C29B1-EAB5-A1E8-B194-0DA92876D518</Description>
+					<CreatedBy>AppWorks Developer</CreatedBy>
+					<CreationDate>2018-10-02T14:39:59.093</CreationDate>
 					<Notes/>
 					<DeveloperText></DeveloperText>
 					<Identifier>
 						<uri
-							id="000C29B1-EAB5-A1E8-B0C1-D34340005518"
+							id="000C29B1-EAB5-A1E8-B189-6E733E3ED518"
 						/>
 					</Identifier>
 				</TranslatableText>
@@ -1343,7 +1203,7 @@
 			RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-4BC994715518">
 			<DocumentID>000C29B1-EAB5-A1E8-B0C2-4BC994711518</DocumentID>
 			<Name>UpdateEgSendEmailToMany</Name>
-			<Description>Update Value of Entity</Description>
+			<Description>Update</Description>
 			<CreatedBy>psdev</CreatedBy>
 			<CreationDate>2018-09-28T10:32:50.389</CreationDate>
 			<Notes/>
@@ -1395,7 +1255,7 @@
 					RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-4BC9946E9518">
 					<DocumentID>000C29B1-EAB5-A1E8-B0C2-4BC9946E5518</DocumentID>
 					<Name>UpdateEgSendEmailToManyInput</Name>
-					<Description>Update Value of Entity/UpdateEgSendEmailToManyInput</Description>
+					<Description>Update/UpdateEgSendEmailToManyInput</Description>
 					<CreatedBy>psdev</CreatedBy>
 					<CreationDate>2018-09-28T10:32:50.388</CreationDate>
 					<Notes/>
@@ -1415,7 +1275,7 @@
 					RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-4BC9946E1518">
 					<DocumentID>000C29B1-EAB5-A1E8-B0C2-4BC9946DD518</DocumentID>
 					<Name>UpdateEgSendEmailToManyOutput</Name>
-					<Description>Update Value of Entity/UpdateEgSendEmailToManyOutput</Description>
+					<Description>Update/UpdateEgSendEmailToManyOutput</Description>
 					<CreatedBy>psdev</CreatedBy>
 					<CreationDate>2018-09-28T10:32:50.389</CreationDate>
 					<Notes/>
@@ -1464,7 +1324,7 @@
 								operation="Replace Content With"
 								operation2="Select"
 								isNillable="false">
-								<sourceAssign>bpm:JoinedAddreses/bpm:EntityId/text()</sourceAssign>
+								<sourceAssign>instance:instanceProperties/instance:rootEntityInstanceId/text()</sourceAssign>
 							</mapping>
 							<mapping
 								sourceId=""
@@ -1475,7 +1335,7 @@
 								operation="Replace Content With"
 								operation2="Select"
 								isNillable="false">
-								<sourceAssign>if (string-length(bpm:JoinedAddreses/bpm:UtilTo/text())&gt;0) then (bpm:JoinedAddreses/bpm:UtilTo/text()) else ('none')</sourceAssign>
+								<sourceAssign>if(string-length(bpm:Variables/bpm:NewValue/text())&gt;0) then(substring(bpm:Variables/bpm:NewValue/text(), 2)) else ('none')</sourceAssign>
 							</mapping>
 						</activity>
 					</beforeAssignment>
@@ -1488,17 +1348,17 @@
 				<TranslatableText
 					type="com.cordys.translation.TranslatableText"
 					typeVersion="45C16E88-6F36-465E-B18C-8A01E01D734C"
-					RuntimeDocumentID="000C29B1-EAB5-A1E8-B14D-EA656FE01518">
-					<DocumentID>000C29B1-EAB5-A1E8-B14D-EA656FDFD518</DocumentID>
-					<Name>000C29B1-EAB5-A1E8-B14D-EA656FDFD518</Name>
-					<Description>000C29B1-EAB5-A1E8-B14D-EA656FDFD518</Description>
+					RuntimeDocumentID="000C29B1-EAB5-A1E8-B192-3A7D9CF11518">
+					<DocumentID>000C29B1-EAB5-A1E8-B192-3A7D9CF0D518</DocumentID>
+					<Name>000C29B1-EAB5-A1E8-B192-3A7D9CF0D518</Name>
+					<Description>000C29B1-EAB5-A1E8-B192-3A7D9CF0D518</Description>
 					<CreatedBy>AppWorks Developer</CreatedBy>
-					<CreationDate>2018-10-01T05:10:19.676</CreationDate>
+					<CreationDate>2018-10-02T13:43:50.393</CreationDate>
 					<Notes/>
 					<DeveloperText></DeveloperText>
 					<Identifier>
 						<uri
-							id="000C29B1-EAB5-A1E8-B14D-EA656FE05518"
+							id="000C29B1-EAB5-A1E8-B191-28EDFC265518"
 						/>
 					</Identifier>
 				</TranslatableText>
@@ -1509,107 +1369,15 @@
 				/>
 			</WebserviceBindingOperation>
 		</ServiceTask>
-		<EmptyActivity
-			type="com.cordys.bpm.activity.EmptyActivity"
-			typeVersion="ru3229e8-6598-4208-9804-a6e623c0qyte"
-			RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-849F670C1518">
-			<DocumentID>000C29B1-EAB5-A1E8-B0C2-849F670BD518</DocumentID>
-			<Name>Activity (3)</Name>
-			<Description>Setup</Description>
-			<CreatedBy>psdev</CreatedBy>
-			<CreationDate>2018-09-28T10:42:28.688</CreationDate>
-			<Notes/>
-			<ActivityColor>#bcd6f1</ActivityColor>
-			<ClassicDebugCondition>false</ClassicDebugCondition>
-			<ClassicExecuteCondition>false</ClassicExecuteCondition>
-			<CrashRecoveryCustomized>false</CrashRecoveryCustomized>
-			<CrashRecoveryEnabled>false</CrashRecoveryEnabled>
-			<Customized>false</Customized>
-			<DebugBefore>beforeActivity</DebugBefore>
-			<DebugCondition></DebugCondition>
-			<DebugStep>no</DebugStep>
-			<DocumentationText>Although this just copies the Entity ID to a process variable, you can make this a fixed Entity ID value so that you can debug the process more easily, and switch it back when you publish it.</DocumentationText>
-			<DynamicExecuteCondition>_none</DynamicExecuteCondition>
-			<ExecuteCondition></ExecuteCondition>
-			<ExecutionUserType>currentOwner</ExecutionUserType>
-			<FontSize>12</FontSize>
-			<LogData/>
-			<MonitorLevel></MonitorLevel>
-			<MonitoringEnabled>false</MonitoringEnabled>
-			<SyncDBBeforeActivity>false</SyncDBBeforeActivity>
-			<links/>
-			<ActivityMessages/>
-			<ContainerProcess>
-				<uri
-					id="000C29B1-EAB5-A1E8-B0BA-0528330FD518"
-				/>
-			</ContainerProcess>
-			<InputMessageObject/>
-			<MessageMap>
-				<MessageMap
-					type="com.cordys.bpm.messagemap.MessageMap"
-					RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-849F67069518">
-					<DocumentID>000C29B1-EAB5-A1E8-B0C2-849F67065518</DocumentID>
-					<Name>Activity (3)</Name>
-					<Description>Activity (3)</Description>
-					<CreatedBy>psdev</CreatedBy>
-					<CreationDate>2018-09-28T10:42:28.688</CreationDate>
-					<Notes/>
-					<afterAssignment>
-						<activity
-							xmlns="">
-							<mapping
-								sourceId=""
-								targetId="_JoinedAddreses_EntityId"
-								isProcessVariable="false"
-								isCaseVariable="false"
-								targetAssign="bpm:JoinedAddreses/bpm:EntityId"
-								operation="Replace Content With"
-								operation2="Select"
-								isNillable="false">
-								<sourceAssign>instance:instanceProperties/instance:rootEntityInstanceId/text()</sourceAssign>
-							</mapping>
-						</activity>
-					</afterAssignment>
-					<beforeAssignment>
-						<activity
-							xmlns=""
-						/>
-					</beforeAssignment>
-				</MessageMap>
-			</MessageMap>
-			<MonitorableEvents/>
-			<MonitorableKpis/>
-			<OutputMessageObject/>
-			<TranslatableName>
-				<TranslatableText
-					type="com.cordys.translation.TranslatableText"
-					typeVersion="45C16E88-6F36-465E-B18C-8A01E01D734C"
-					RuntimeDocumentID="000C29B1-EAB5-A1E8-B11C-F5B532E25518">
-					<DocumentID>000C29B1-EAB5-A1E8-B11C-F5B532E21518</DocumentID>
-					<Name>000C29B1-EAB5-A1E8-B11C-F5B532E21518</Name>
-					<Description>000C29B1-EAB5-A1E8-B11C-F5B532E21518</Description>
-					<CreatedBy>psdev</CreatedBy>
-					<CreationDate>2018-09-30T05:51:40.862</CreationDate>
-					<Notes/>
-					<DeveloperText></DeveloperText>
-					<Identifier>
-						<uri
-							id="000C29B1-EAB5-A1E8-B11C-F5B532E29518"
-						/>
-					</Identifier>
-				</TranslatableText>
-			</TranslatableName>
-		</EmptyActivity>
 		<SequenceFlow
 			type="com.cordys.bpm.connectors.SequenceFlow"
 			typeVersion="ru3229e8-6598-4208-9804-a6e623c0qyte"
-			RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-849F67099518">
-			<DocumentID>000C29B1-EAB5-A1E8-B0C2-849F67095518</DocumentID>
+			RuntimeDocumentID="000C29B1-EAB5-A1E8-B189-6E733E495518">
+			<DocumentID>000C29B1-EAB5-A1E8-B189-6E733E491518</DocumentID>
 			<Name>Connector (5)</Name>
 			<Description/>
-			<CreatedBy>psdev</CreatedBy>
-			<CreationDate>2018-09-28T10:42:28.688</CreationDate>
+			<CreatedBy>AppWorks Developer</CreatedBy>
+			<CreationDate>2018-10-02T13:43:50.392</CreationDate>
 			<Notes/>
 			<ClassicCondition>false</ClassicCondition>
 			<ConditionExpression></ConditionExpression>
@@ -1630,7 +1398,7 @@
 			</SourceReference>
 			<TargetReference>
 				<uri
-					id="000C29B1-EAB5-A1E8-B0C2-849F670BD518"
+					id="000C29B1-EAB5-A1E8-B0C1-6F40BACF1518"
 				/>
 			</TargetReference>
 			<TranslatableName/>
@@ -1638,12 +1406,12 @@
 		<SequenceFlow
 			type="com.cordys.bpm.connectors.SequenceFlow"
 			typeVersion="ru3229e8-6598-4208-9804-a6e623c0qyte"
-			RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-849F67081518">
-			<DocumentID>000C29B1-EAB5-A1E8-B0C2-849F6707D518</DocumentID>
-			<Name>Connector (6)</Name>
+			RuntimeDocumentID="000C29B1-EAB5-A1E8-B194-0DA928799518">
+			<DocumentID>000C29B1-EAB5-A1E8-B194-0DA928795518</DocumentID>
+			<Name>Connector (3)</Name>
 			<Description/>
-			<CreatedBy>psdev</CreatedBy>
-			<CreationDate>2018-09-28T10:42:28.688</CreationDate>
+			<CreatedBy>AppWorks Developer</CreatedBy>
+			<CreationDate>2018-10-02T14:39:59.092</CreationDate>
 			<Notes/>
 			<ClassicCondition>false</ClassicCondition>
 			<ConditionExpression></ConditionExpression>
@@ -1659,119 +1427,25 @@
 			</ContainerProcess>
 			<SourceReference>
 				<uri
-					id="000C29B1-EAB5-A1E8-B0C2-849F670BD518"
+					id="000C29B1-EAB5-A1E8-B0C1-6F40BACF1518"
 				/>
 			</SourceReference>
 			<TargetReference>
 				<uri
-					id="000C29B1-EAB5-A1E8-B0C1-6F40BACF1518"
+					id="000C29B1-EAB5-A1E8-B0BA-60900142D518"
 				/>
 			</TargetReference>
 			<TranslatableName/>
 		</SequenceFlow>
-		<EmptyActivity
-			type="com.cordys.bpm.activity.EmptyActivity"
-			typeVersion="ru3229e8-6598-4208-9804-a6e623c0qyte"
-			RuntimeDocumentID="000C29B1-EAB5-A1E8-B11C-6F0E9350D518">
-			<DocumentID>000C29B1-EAB5-A1E8-B11C-6F0E93509518</DocumentID>
-			<Name>Activity (4)</Name>
-			<Description>Remove Initial Separator</Description>
-			<CreatedBy>psdev</CreatedBy>
-			<CreationDate>2018-09-30T05:34:47.036</CreationDate>
-			<Notes/>
-			<ActivityColor>#bcd6f1</ActivityColor>
-			<ClassicDebugCondition>false</ClassicDebugCondition>
-			<ClassicExecuteCondition>false</ClassicExecuteCondition>
-			<CrashRecoveryCustomized>false</CrashRecoveryCustomized>
-			<CrashRecoveryEnabled>false</CrashRecoveryEnabled>
-			<Customized>false</Customized>
-			<DebugBefore>beforeActivity</DebugBefore>
-			<DebugCondition></DebugCondition>
-			<DebugStep>no</DebugStep>
-			<DocumentationText>Remove the first character from the string because it will always be a semi-colon. 
-
-NOTE that there is no test for an empty string yet, but this does not result in any error (if there are no related people)</DocumentationText>
-			<DynamicExecuteCondition>_none</DynamicExecuteCondition>
-			<ExecuteCondition></ExecuteCondition>
-			<ExecutionUserType>currentOwner</ExecutionUserType>
-			<FontSize>12</FontSize>
-			<LogData/>
-			<MonitorLevel></MonitorLevel>
-			<MonitoringEnabled>false</MonitoringEnabled>
-			<SyncDBBeforeActivity>false</SyncDBBeforeActivity>
-			<links/>
-			<ActivityMessages/>
-			<ContainerProcess>
-				<uri
-					id="000C29B1-EAB5-A1E8-B0BA-0528330FD518"
-				/>
-			</ContainerProcess>
-			<InputMessageObject/>
-			<MessageMap>
-				<MessageMap
-					type="com.cordys.bpm.messagemap.MessageMap"
-					RuntimeDocumentID="000C29B1-EAB5-A1E8-B11C-6F0E93449518">
-					<DocumentID>000C29B1-EAB5-A1E8-B11C-6F0E93445518</DocumentID>
-					<Name>Activity (4)</Name>
-					<Description>Activity (4)</Description>
-					<CreatedBy>psdev</CreatedBy>
-					<CreationDate>2018-09-30T05:34:47.035</CreationDate>
-					<Notes/>
-					<afterAssignment>
-						<activity
-							xmlns=""
-						/>
-					</afterAssignment>
-					<beforeAssignment>
-						<activity
-							xmlns="">
-							<mapping
-								sourceId=""
-								targetId="_JoinedAddreses_UtilTo"
-								isProcessVariable="false"
-								isCaseVariable="false"
-								targetAssign="bpm:JoinedAddreses/bpm:UtilTo"
-								operation="Replace Content With"
-								operation2="Select"
-								isNillable="false">
-								<sourceAssign>substring(bpm:JoinedAddreses/bpm:UtilTo/text(), 2)</sourceAssign>
-							</mapping>
-						</activity>
-					</beforeAssignment>
-				</MessageMap>
-			</MessageMap>
-			<MonitorableEvents/>
-			<MonitorableKpis/>
-			<OutputMessageObject/>
-			<TranslatableName>
-				<TranslatableText
-					type="com.cordys.translation.TranslatableText"
-					typeVersion="45C16E88-6F36-465E-B18C-8A01E01D734C"
-					RuntimeDocumentID="000C29B1-EAB5-A1E8-B14D-EA656FE31518">
-					<DocumentID>000C29B1-EAB5-A1E8-B14D-EA656FE2D518</DocumentID>
-					<Name>000C29B1-EAB5-A1E8-B14D-EA656FE2D518</Name>
-					<Description>000C29B1-EAB5-A1E8-B14D-EA656FE2D518</Description>
-					<CreatedBy>AppWorks Developer</CreatedBy>
-					<CreationDate>2018-10-01T05:10:19.677</CreationDate>
-					<Notes/>
-					<DeveloperText></DeveloperText>
-					<Identifier>
-						<uri
-							id="000C29B1-EAB5-A1E8-B14D-EA656FE35518"
-						/>
-					</Identifier>
-				</TranslatableText>
-			</TranslatableName>
-		</EmptyActivity>
 		<SequenceFlow
 			type="com.cordys.bpm.connectors.SequenceFlow"
 			typeVersion="ru3229e8-6598-4208-9804-a6e623c0qyte"
-			RuntimeDocumentID="000C29B1-EAB5-A1E8-B11C-6F0E934E5518">
-			<DocumentID>000C29B1-EAB5-A1E8-B11C-6F0E934E1518</DocumentID>
-			<Name>Connector (7)</Name>
+			RuntimeDocumentID="000C29B1-EAB5-A1E8-B194-0DA928781518">
+			<DocumentID>000C29B1-EAB5-A1E8-B194-0DA92877D518</DocumentID>
+			<Name>Connector (4)</Name>
 			<Description/>
-			<CreatedBy>psdev</CreatedBy>
-			<CreationDate>2018-09-30T05:34:47.036</CreationDate>
+			<CreatedBy>AppWorks Developer</CreatedBy>
+			<CreationDate>2018-10-02T14:39:59.093</CreationDate>
 			<Notes/>
 			<ClassicCondition>false</ClassicCondition>
 			<ConditionExpression></ConditionExpression>
@@ -1788,40 +1462,6 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 			<SourceReference>
 				<uri
 					id="000C29B1-EAB5-A1E8-B0BA-60900142D518"
-				/>
-			</SourceReference>
-			<TargetReference>
-				<uri
-					id="000C29B1-EAB5-A1E8-B11C-6F0E93509518"
-				/>
-			</TargetReference>
-			<TranslatableName/>
-		</SequenceFlow>
-		<SequenceFlow
-			type="com.cordys.bpm.connectors.SequenceFlow"
-			typeVersion="ru3229e8-6598-4208-9804-a6e623c0qyte"
-			RuntimeDocumentID="000C29B1-EAB5-A1E8-B11C-6F0E934CD518">
-			<DocumentID>000C29B1-EAB5-A1E8-B11C-6F0E934C9518</DocumentID>
-			<Name>Connector (9)</Name>
-			<Description/>
-			<CreatedBy>psdev</CreatedBy>
-			<CreationDate>2018-09-30T05:34:47.035</CreationDate>
-			<Notes/>
-			<ClassicCondition>false</ClassicCondition>
-			<ConditionExpression></ConditionExpression>
-			<ConditionType></ConditionType>
-			<DocumentationText></DocumentationText>
-			<FontSize>12</FontSize>
-			<Sequence></Sequence>
-			<links/>
-			<ContainerProcess>
-				<uri
-					id="000C29B1-EAB5-A1E8-B0BA-0528330FD518"
-				/>
-			</ContainerProcess>
-			<SourceReference>
-				<uri
-					id="000C29B1-EAB5-A1E8-B11C-6F0E93509518"
 				/>
 			</SourceReference>
 			<TargetReference>
@@ -1878,8 +1518,8 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 			type="com.cordys.bpm.Message"
 			RuntimeDocumentID="000C29B1-EAB5-A1E8-B0BA-4458BFD95518">
 			<DocumentID>000C29B1-EAB5-A1E8-B0BA-4458BFD91518</DocumentID>
-			<Name>JoinedAddreses</Name>
-			<Description>Util Update Interested Party Emails/JoinedAddreses</Description>
+			<Name>Variables</Name>
+			<Description>Util Update Interested Party Emails/Variables</Description>
 			<CreatedBy>psdev</CreatedBy>
 			<CreationDate>2018-09-28T06:47:11.114</CreationDate>
 			<Notes/>
@@ -1889,9 +1529,6 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 			<CustomMessageParts>
 				<uri
 					id="000C29B1-EAB5-A1E8-B0BA-4458BFD7D518"
-				/>
-				<uri
-					id="000C29B1-EAB5-A1E8-B0C2-849F6706D518"
 				/>
 			</CustomMessageParts>
 			<MessageParts/>
@@ -1952,8 +1589,8 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 					type="com.cordys.xmlschema.SchemaFragment"
 					RuntimeDocumentID="000C29B1-EAB5-A1E8-B0BA-4458BFD81518">
 					<DocumentID>000C29B1-EAB5-A1E8-B0BA-4458BFD7D518</DocumentID>
-					<Name>UtilTo</Name>
-					<Description>UtilTo</Description>
+					<Name>NewValue</Name>
+					<Description>NewValue</Description>
 					<CreatedBy>psdev</CreatedBy>
 					<CreationDate>2018-09-28T06:47:11.114</CreationDate>
 					<Notes/>
@@ -1961,36 +1598,11 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 					<DefinitionXML>
 						<element
 							xmlns="http://www.w3.org/2001/XMLSchema"
-							name="UtilTo"
+							name="NewValue"
 							type="xsd:string"
 						/>
 					</DefinitionXML>
-					<FragmentName>UtilTo</FragmentName>
-					<Type>xsd:string</Type>
-					<SchemaDefinition>
-						<uri
-							id="000C29B1-EAB5-A1E8-B0BA-4458BFD89518"
-						/>
-					</SchemaDefinition>
-				</SchemaFragment>
-				<SchemaFragment
-					type="com.cordys.xmlschema.SchemaFragment"
-					RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-849F67071518">
-					<DocumentID>000C29B1-EAB5-A1E8-B0C2-849F6706D518</DocumentID>
-					<Name>EntityId</Name>
-					<Description>EntityId</Description>
-					<CreatedBy>psdev</CreatedBy>
-					<CreationDate>2018-09-28T10:42:28.688</CreationDate>
-					<Notes/>
-					<AnnotationSpecificationXML/>
-					<DefinitionXML>
-						<element
-							xmlns="http://www.w3.org/2001/XMLSchema"
-							name="EntityId"
-							type="xsd:string"
-						/>
-					</DefinitionXML>
-					<FragmentName>EntityId</FragmentName>
+					<FragmentName>NewValue</FragmentName>
 					<Type>xsd:string</Type>
 					<SchemaDefinition>
 						<uri
@@ -2082,8 +1694,8 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 					id="o_32"
 					__shapeReferenceID="000C29B1-EAB5-A1E8-B0BA-609001435518"
 					objectType="foreach"
-					left="540%"
-					top="60%"
+					left="330.01%"
+					top="60.01%"
 					width="180%"
 					height="130%"
 					expandedTextAlignment="center"
@@ -2136,7 +1748,7 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 					id="o_36"
 					__shapeReferenceID="000C29B1-EAB5-A1E8-B0C0-BB30F3035518"
 					objectType="end"
-					left="1150.01%"
+					left="750.01%"
 					top="110.01%"
 					display=""
 					user="psdev">
@@ -2178,7 +1790,7 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 					id="o_43"
 					__shapeReferenceID="000C29B1-EAB5-A1E8-B0C1-6F40BAD59518"
 					objectType="activity"
-					left="340.01%"
+					left="130.01%"
 					top="90.01%"
 					width="140%"
 					height="80%"
@@ -2207,70 +1819,6 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 		<GMFShapeReference
 			type="com.cordys.gmf.diagram.GMFShapeReference"
 			typeVersion="00217070-125C-71DF-A53F-4E0D3746F9D5"
-			RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C1-6F40BAD1D518">
-			<DocumentID>000C29B1-EAB5-A1E8-B0C1-6F40BAD19518</DocumentID>
-			<Name>o_48</Name>
-			<Description>o_48</Description>
-			<CreatedBy>psdev</CreatedBy>
-			<CreationDate>2018-09-28T10:04:45.824</CreationDate>
-			<Notes/>
-			<dataObject>
-				<linkedObjects
-					xmlns="http://schemas.cordys.com/gmf/diagram/GMFShapeReference/1.0">
-					<line>
-						<object
-							id="o_49"
-							objectType="line"
-							connectorId="o_48"
-							source="o_43"
-							destination="o_32"
-							fromX="480"
-							fromY="130"
-							toX="540"
-							toY="130"
-							display=""
-							user="psdev"
-						/>
-					</line>
-				</linkedObjects>
-			</dataObject>
-			<height></height>
-			<htmlChildPosition>14</htmlChildPosition>
-			<left></left>
-			<objectXML>
-				<object
-					xmlns="http://schemas.cordys.com/gmf/diagram/GMFShapeReference/1.0"
-					id="o_48"
-					__shapeReferenceID="000C29B1-EAB5-A1E8-B0C1-6F40BAD19518"
-					objectType="connector"
-					connectorType="connector"
-					source="o_43"
-					destination="o_32"
-					direction="one way"
-					isDefault="false"
-					sourceIntersection="center"
-					destinationIntersection="center">
-					<dataObject
-						name="connector">
-						<uri
-							xmlns="http://schemas.cordys.com/cws/1.0"
-							id="000C29B1-EAB5-A1E8-B0C1-6F40BAD11518"
-						/>
-					</dataObject>
-				</object>
-			</objectXML>
-			<shapeType>connector</shapeType>
-			<top></top>
-			<width></width>
-			<ReferenceObject>
-				<uri
-					id="000C29B1-EAB5-A1E8-B0C1-6F40BAD11518"
-				/>
-			</ReferenceObject>
-		</GMFShapeReference>
-		<GMFShapeReference
-			type="com.cordys.gmf.diagram.GMFShapeReference"
-			typeVersion="00217070-125C-71DF-A53F-4E0D3746F9D5"
 			RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C1-D34340041518">
 			<DocumentID>000C29B1-EAB5-A1E8-B0C1-D3434003D518</DocumentID>
 			<Name>o_57</Name>
@@ -2289,7 +1837,7 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 					__shapeReferenceID="000C29B1-EAB5-A1E8-B0C1-D3434003D518"
 					objectType="activity"
 					groupId="o_32"
-					left="560.01%"
+					left="350.01%"
 					top="90.01%"
 					width="140%"
 					height="80%"
@@ -2335,7 +1883,7 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 					id="o_58"
 					__shapeReferenceID="000C29B1-EAB5-A1E8-B0C2-4BC994769518"
 					objectType="activity"
-					left="960.01%"
+					left="560.01%"
 					top="90.01%"
 					width="140%"
 					height="80%"
@@ -2381,9 +1929,9 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 							connectorId="o_65"
 							source="o_58"
 							destination="o_36"
-							fromX="1100"
+							fromX="700"
 							fromY="130"
-							toX="1150"
+							toX="750"
 							toY="130"
 							display=""
 							user="psdev"
@@ -2392,7 +1940,7 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 				</linkedObjects>
 			</dataObject>
 			<height></height>
-			<htmlChildPosition>15</htmlChildPosition>
+			<htmlChildPosition>10</htmlChildPosition>
 			<left></left>
 			<objectXML>
 				<object
@@ -2428,154 +1976,44 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 		<GMFShapeReference
 			type="com.cordys.gmf.diagram.GMFShapeReference"
 			typeVersion="00217070-125C-71DF-A53F-4E0D3746F9D5"
-			RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-849F670C9518">
-			<DocumentID>000C29B1-EAB5-A1E8-B0C2-849F670C5518</DocumentID>
-			<Name>o_71</Name>
-			<Description>o_71</Description>
-			<CreatedBy>psdev</CreatedBy>
-			<CreationDate>2018-09-28T10:42:28.688</CreationDate>
+			RuntimeDocumentID="000C29B1-EAB5-A1E8-B189-6E733E49D518">
+			<DocumentID>000C29B1-EAB5-A1E8-B189-6E733E499518</DocumentID>
+			<Name>o_89</Name>
+			<Description>o_89</Description>
+			<CreatedBy>AppWorks Developer</CreatedBy>
+			<CreationDate>2018-10-02T13:43:50.393</CreationDate>
 			<Notes/>
-			<dataObject/>
+			<dataObject>
+				<linkedObjects
+					xmlns="http://schemas.cordys.com/gmf/diagram/GMFShapeReference/1.0">
+					<line>
+						<object
+							id="o_90"
+							objectType="line"
+							connectorId="o_89"
+							source="o_1"
+							destination="o_43"
+							fromX="80"
+							fromY="130"
+							toX="130"
+							toY="130"
+							display=""
+							user="psdev"
+						/>
+					</line>
+				</linkedObjects>
+			</dataObject>
 			<height></height>
 			<htmlChildPosition>11</htmlChildPosition>
 			<left></left>
 			<objectXML>
 				<object
 					xmlns="http://schemas.cordys.com/gmf/diagram/GMFShapeReference/1.0"
-					id="o_71"
-					__shapeReferenceID="000C29B1-EAB5-A1E8-B0C2-849F670C5518"
-					objectType="activity"
-					left="140.01%"
-					top="90.01%"
-					width="140%"
-					height="80%"
-					horizontalTextAlignment="center"
-					verticalTextAlignment="middle"
-					display=""
-					user="psdev">
-					<dataObject
-						name="activity">
-						<uri
-							xmlns="http://schemas.cordys.com/cws/1.0"
-							id="000C29B1-EAB5-A1E8-B0C2-849F670BD518"
-						/>
-					</dataObject>
-				</object>
-			</objectXML>
-			<shapeType>activity</shapeType>
-			<top></top>
-			<width></width>
-			<ReferenceObject>
-				<uri
-					id="000C29B1-EAB5-A1E8-B0C2-849F670BD518"
-				/>
-			</ReferenceObject>
-		</GMFShapeReference>
-		<GMFShapeReference
-			type="com.cordys.gmf.diagram.GMFShapeReference"
-			typeVersion="00217070-125C-71DF-A53F-4E0D3746F9D5"
-			RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-849F670A1518">
-			<DocumentID>000C29B1-EAB5-A1E8-B0C2-849F6709D518</DocumentID>
-			<Name>o_74</Name>
-			<Description>o_74</Description>
-			<CreatedBy>psdev</CreatedBy>
-			<CreationDate>2018-09-28T10:42:28.688</CreationDate>
-			<Notes/>
-			<dataObject>
-				<linkedObjects
-					xmlns="http://schemas.cordys.com/gmf/diagram/GMFShapeReference/1.0">
-					<line>
-						<object
-							id="o_75"
-							objectType="line"
-							connectorId="o_74"
-							source="o_1"
-							destination="o_71"
-							fromX="80"
-							fromY="130"
-							toX="140"
-							toY="130"
-							display=""
-							user="psdev"
-						/>
-					</line>
-				</linkedObjects>
-			</dataObject>
-			<height></height>
-			<htmlChildPosition>16</htmlChildPosition>
-			<left></left>
-			<objectXML>
-				<object
-					xmlns="http://schemas.cordys.com/gmf/diagram/GMFShapeReference/1.0"
-					id="o_74"
-					__shapeReferenceID="000C29B1-EAB5-A1E8-B0C2-849F6709D518"
+					id="o_89"
+					__shapeReferenceID="000C29B1-EAB5-A1E8-B189-6E733E499518"
 					objectType="connector"
 					connectorType="connector"
 					source="o_1"
-					destination="o_71"
-					direction="one way"
-					isDefault="false"
-					sourceIntersection="center"
-					destinationIntersection="center">
-					<dataObject
-						name="connector">
-						<uri
-							xmlns="http://schemas.cordys.com/cws/1.0"
-							id="000C29B1-EAB5-A1E8-B0C2-849F67095518"
-						/>
-					</dataObject>
-				</object>
-			</objectXML>
-			<shapeType>connector</shapeType>
-			<top></top>
-			<width></width>
-			<ReferenceObject>
-				<uri
-					id="000C29B1-EAB5-A1E8-B0C2-849F67095518"
-				/>
-			</ReferenceObject>
-		</GMFShapeReference>
-		<GMFShapeReference
-			type="com.cordys.gmf.diagram.GMFShapeReference"
-			typeVersion="00217070-125C-71DF-A53F-4E0D3746F9D5"
-			RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-849F67089518">
-			<DocumentID>000C29B1-EAB5-A1E8-B0C2-849F67085518</DocumentID>
-			<Name>o_78</Name>
-			<Description>o_78</Description>
-			<CreatedBy>psdev</CreatedBy>
-			<CreationDate>2018-09-28T10:42:28.689</CreationDate>
-			<Notes/>
-			<dataObject>
-				<linkedObjects
-					xmlns="http://schemas.cordys.com/gmf/diagram/GMFShapeReference/1.0">
-					<line>
-						<object
-							id="o_79"
-							objectType="line"
-							connectorId="o_78"
-							source="o_71"
-							destination="o_43"
-							fromX="280"
-							fromY="130"
-							toX="340"
-							toY="130"
-							display=""
-							user="psdev"
-						/>
-					</line>
-				</linkedObjects>
-			</dataObject>
-			<height></height>
-			<htmlChildPosition>17</htmlChildPosition>
-			<left></left>
-			<objectXML>
-				<object
-					xmlns="http://schemas.cordys.com/gmf/diagram/GMFShapeReference/1.0"
-					id="o_78"
-					__shapeReferenceID="000C29B1-EAB5-A1E8-B0C2-849F67085518"
-					objectType="connector"
-					connectorType="connector"
-					source="o_71"
 					destination="o_43"
 					direction="one way"
 					isDefault="false"
@@ -2585,7 +2023,7 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 						name="connector">
 						<uri
 							xmlns="http://schemas.cordys.com/cws/1.0"
-							id="000C29B1-EAB5-A1E8-B0C2-849F6707D518"
+							id="000C29B1-EAB5-A1E8-B189-6E733E491518"
 						/>
 					</dataObject>
 				</object>
@@ -2595,79 +2033,33 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 			<width></width>
 			<ReferenceObject>
 				<uri
-					id="000C29B1-EAB5-A1E8-B0C2-849F6707D518"
+					id="000C29B1-EAB5-A1E8-B189-6E733E491518"
 				/>
 			</ReferenceObject>
 		</GMFShapeReference>
 		<GMFShapeReference
 			type="com.cordys.gmf.diagram.GMFShapeReference"
 			typeVersion="00217070-125C-71DF-A53F-4E0D3746F9D5"
-			RuntimeDocumentID="000C29B1-EAB5-A1E8-B11C-6F0E93515518">
-			<DocumentID>000C29B1-EAB5-A1E8-B11C-6F0E93511518</DocumentID>
-			<Name>o_80</Name>
-			<Description>o_80</Description>
-			<CreatedBy>psdev</CreatedBy>
-			<CreationDate>2018-09-30T05:34:47.036</CreationDate>
-			<Notes/>
-			<dataObject/>
-			<height></height>
-			<htmlChildPosition>13</htmlChildPosition>
-			<left></left>
-			<objectXML>
-				<object
-					xmlns="http://schemas.cordys.com/gmf/diagram/GMFShapeReference/1.0"
-					id="o_80"
-					__shapeReferenceID="000C29B1-EAB5-A1E8-B11C-6F0E93511518"
-					objectType="activity"
-					left="770.01%"
-					top="90.01%"
-					width="140%"
-					height="80%"
-					horizontalTextAlignment="center"
-					verticalTextAlignment="middle"
-					display=""
-					user="psdev">
-					<dataObject
-						name="activity">
-						<uri
-							xmlns="http://schemas.cordys.com/cws/1.0"
-							id="000C29B1-EAB5-A1E8-B11C-6F0E93509518"
-						/>
-					</dataObject>
-				</object>
-			</objectXML>
-			<shapeType>activity</shapeType>
-			<top></top>
-			<width></width>
-			<ReferenceObject>
-				<uri
-					id="000C29B1-EAB5-A1E8-B11C-6F0E93509518"
-				/>
-			</ReferenceObject>
-		</GMFShapeReference>
-		<GMFShapeReference
-			type="com.cordys.gmf.diagram.GMFShapeReference"
-			typeVersion="00217070-125C-71DF-A53F-4E0D3746F9D5"
-			RuntimeDocumentID="000C29B1-EAB5-A1E8-B11C-6F0E934ED518">
-			<DocumentID>000C29B1-EAB5-A1E8-B11C-6F0E934E9518</DocumentID>
-			<Name>o_81</Name>
-			<Description>o_81</Description>
-			<CreatedBy>psdev</CreatedBy>
-			<CreationDate>2018-09-30T05:34:47.036</CreationDate>
+			RuntimeDocumentID="000C29B1-EAB5-A1E8-B194-0DA9287A1518">
+			<DocumentID>000C29B1-EAB5-A1E8-B194-0DA92879D518</DocumentID>
+			<Name>o_106</Name>
+			<Description>o_106</Description>
+			<CreatedBy>AppWorks Developer</CreatedBy>
+			<CreationDate>2018-10-02T14:39:59.093</CreationDate>
 			<Notes/>
 			<dataObject>
 				<linkedObjects
 					xmlns="http://schemas.cordys.com/gmf/diagram/GMFShapeReference/1.0">
 					<line>
 						<object
-							id="o_82"
+							id="o_107"
 							objectType="line"
-							connectorId="o_81"
-							source="o_32"
-							destination="o_80"
-							fromX="720"
+							connectorId="o_106"
+							source="o_43"
+							destination="o_32"
+							fromX="270"
 							fromY="130"
-							toX="770"
+							toX="330"
 							toY="130"
 							display=""
 							user="psdev"
@@ -2676,17 +2068,17 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 				</linkedObjects>
 			</dataObject>
 			<height></height>
-			<htmlChildPosition>18</htmlChildPosition>
+			<htmlChildPosition>12</htmlChildPosition>
 			<left></left>
 			<objectXML>
 				<object
 					xmlns="http://schemas.cordys.com/gmf/diagram/GMFShapeReference/1.0"
-					id="o_81"
-					__shapeReferenceID="000C29B1-EAB5-A1E8-B11C-6F0E934E9518"
+					id="o_106"
+					__shapeReferenceID="000C29B1-EAB5-A1E8-B194-0DA92879D518"
 					objectType="connector"
 					connectorType="connector"
-					source="o_32"
-					destination="o_80"
+					source="o_43"
+					destination="o_32"
 					direction="one way"
 					isDefault="false"
 					sourceIntersection="center"
@@ -2695,7 +2087,7 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 						name="connector">
 						<uri
 							xmlns="http://schemas.cordys.com/cws/1.0"
-							id="000C29B1-EAB5-A1E8-B11C-6F0E934E1518"
+							id="000C29B1-EAB5-A1E8-B194-0DA928795518"
 						/>
 					</dataObject>
 				</object>
@@ -2705,33 +2097,33 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 			<width></width>
 			<ReferenceObject>
 				<uri
-					id="000C29B1-EAB5-A1E8-B11C-6F0E934E1518"
+					id="000C29B1-EAB5-A1E8-B194-0DA928795518"
 				/>
 			</ReferenceObject>
 		</GMFShapeReference>
 		<GMFShapeReference
 			type="com.cordys.gmf.diagram.GMFShapeReference"
 			typeVersion="00217070-125C-71DF-A53F-4E0D3746F9D5"
-			RuntimeDocumentID="000C29B1-EAB5-A1E8-B11C-6F0E934D5518">
-			<DocumentID>000C29B1-EAB5-A1E8-B11C-6F0E934D1518</DocumentID>
-			<Name>o_85</Name>
-			<Description>o_85</Description>
-			<CreatedBy>psdev</CreatedBy>
-			<CreationDate>2018-09-30T05:34:47.035</CreationDate>
+			RuntimeDocumentID="000C29B1-EAB5-A1E8-B194-0DA928789518">
+			<DocumentID>000C29B1-EAB5-A1E8-B194-0DA928785518</DocumentID>
+			<Name>o_110</Name>
+			<Description>o_110</Description>
+			<CreatedBy>AppWorks Developer</CreatedBy>
+			<CreationDate>2018-10-02T14:39:59.093</CreationDate>
 			<Notes/>
 			<dataObject>
 				<linkedObjects
 					xmlns="http://schemas.cordys.com/gmf/diagram/GMFShapeReference/1.0">
 					<line>
 						<object
-							id="o_86"
+							id="o_111"
 							objectType="line"
-							connectorId="o_85"
-							source="o_80"
+							connectorId="o_110"
+							source="o_32"
 							destination="o_58"
-							fromX="910"
+							fromX="510"
 							fromY="130"
-							toX="960"
+							toX="560"
 							toY="130"
 							display=""
 							user="psdev"
@@ -2740,16 +2132,16 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 				</linkedObjects>
 			</dataObject>
 			<height></height>
-			<htmlChildPosition>19</htmlChildPosition>
+			<htmlChildPosition>13</htmlChildPosition>
 			<left></left>
 			<objectXML>
 				<object
 					xmlns="http://schemas.cordys.com/gmf/diagram/GMFShapeReference/1.0"
-					id="o_85"
-					__shapeReferenceID="000C29B1-EAB5-A1E8-B11C-6F0E934D1518"
+					id="o_110"
+					__shapeReferenceID="000C29B1-EAB5-A1E8-B194-0DA928785518"
 					objectType="connector"
 					connectorType="connector"
-					source="o_80"
+					source="o_32"
 					destination="o_58"
 					direction="one way"
 					isDefault="false"
@@ -2759,7 +2151,7 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 						name="connector">
 						<uri
 							xmlns="http://schemas.cordys.com/cws/1.0"
-							id="000C29B1-EAB5-A1E8-B11C-6F0E934C9518"
+							id="000C29B1-EAB5-A1E8-B194-0DA92877D518"
 						/>
 					</dataObject>
 				</object>
@@ -2769,7 +2161,7 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 			<width></width>
 			<ReferenceObject>
 				<uri
-					id="000C29B1-EAB5-A1E8-B11C-6F0E934C9518"
+					id="000C29B1-EAB5-A1E8-B194-0DA92877D518"
 				/>
 			</ReferenceObject>
 		</GMFShapeReference>
@@ -2778,17 +2170,17 @@ NOTE that there is no test for an empty string yet, but this does not result in 
 		<TranslatableText
 			type="com.cordys.translation.TranslatableText"
 			typeVersion="45C16E88-6F36-465E-B18C-8A01E01D734C"
-			RuntimeDocumentID="000C29B1-EAB5-A1E8-B0BA-2437CF075518">
-			<DocumentID>000C29B1-EAB5-A1E8-B0BA-2437CF071518</DocumentID>
-			<Name>000C29B1-EAB5-A1E8-B0BA-2437CF071518</Name>
-			<Description>000C29B1-EAB5-A1E8-B0BA-2437CF071518</Description>
-			<CreatedBy>psdev</CreatedBy>
-			<CreationDate>2018-09-28T06:36:10.75</CreationDate>
+			RuntimeDocumentID="000C29B1-EAB5-A1E8-B187-F8457E695518">
+			<DocumentID>000C29B1-EAB5-A1E8-B187-F8457E691518</DocumentID>
+			<Name>000C29B1-EAB5-A1E8-B187-F8457E691518</Name>
+			<Description>000C29B1-EAB5-A1E8-B187-F8457E691518</Description>
+			<CreatedBy>AppWorks Developer</CreatedBy>
+			<CreationDate>2018-10-02T13:43:50.394</CreationDate>
 			<Notes/>
 			<DeveloperText></DeveloperText>
 			<Identifier>
 				<uri
-					id="000C29B1-EAB5-A1E8-B0BA-2437CF081518"
+					id="000C29B1-EAB5-A1E8-B187-F8457E699518"
 				/>
 			</Identifier>
 		</TranslatableText>

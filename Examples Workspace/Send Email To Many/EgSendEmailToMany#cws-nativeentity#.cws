@@ -24,11 +24,7 @@
 			<CreatedBy>psdev</CreatedBy>
 			<CreationDate>2018-09-28T06:25:30.768</CreationDate>
 			<Notes/>
-			<BusinessIdProperty>
-				<uri
-					id="000C29B1-EAB5-A1E8-B0B9-BD8078C05518"
-				/>
-			</BusinessIdProperty>
+			<BusinessIdProperty/>
 			<Entity>
 				<uri
 					id="000C29B1-EAB5-A1E8-B0A4-A5C2668AD518"
@@ -358,75 +354,6 @@
 						/>
 					</TypeDefinition>
 				</Property>
-				<Property
-					type="com.cordys.entity.core.structure.property.Property"
-					RuntimeDocumentID="000C29B1-EAB5-A1E8-B0B9-BD8078C09518">
-					<DocumentID>000C29B1-EAB5-A1E8-B0B9-BD8078C05518</DocumentID>
-					<Name>BusinessId</Name>
-					<Description>BusinessId</Description>
-					<CreatedBy>psdev</CreatedBy>
-					<CreationDate>2018-09-28T06:25:30.77</CreationDate>
-					<Notes/>
-					<ConflictLevel>None</ConflictLevel>
-					<DataType>Text</DataType>
-					<ExposeForReuse>false</ExposeForReuse>
-					<Expression></Expression>
-					<IsComputedProperty>false</IsComputedProperty>
-					<IsReadOnly>false</IsReadOnly>
-					<IsRequired>false</IsRequired>
-					<IsValueUnique>false</IsValueUnique>
-					<StaticProperty></StaticProperty>
-					<Updatability>ReadOnly</Updatability>
-					<BuildingBlock>
-						<uri
-							id="000C29B1-EAB5-A1E8-B0A4-A5C2668A5518"
-						/>
-					</BuildingBlock>
-					<DisplayName>
-						<TranslatableText
-							type="com.cordys.translation.TranslatableText"
-							typeVersion="45C16E88-6F36-465E-B18C-8A01E01D734C"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B0B9-BD8078BF1518">
-							<DocumentID>000C29B1-EAB5-A1E8-B0B9-BD8078BED518</DocumentID>
-							<Name>000C29B1-EAB5-A1E8-B0B9-BD8078BED518</Name>
-							<Description>000C29B1-EAB5-A1E8-B0B9-BD8078BED518</Description>
-							<CreatedBy>psdev</CreatedBy>
-							<CreationDate>2018-09-28T06:25:30.769</CreationDate>
-							<Notes/>
-							<DeveloperText></DeveloperText>
-							<Identifier>
-								<uri
-									id="000C29B1-EAB5-A1E8-B0B9-BD8078BF5518"
-								/>
-							</Identifier>
-						</TranslatableText>
-					</DisplayName>
-					<OwnedTypeDefinition>
-						<SequentialIdPropertyDefinition
-							type="com.cordys.entity.core.typesystem.primitives.sequentialid.SequentialIdPropertyDefinition"
-							typeVersion="4189E3FD-7E68-423A-8289-FEFAD1EC0ED8"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B0B9-BD8078BE9518">
-							<DocumentID>000C29B1-EAB5-A1E8-B0B9-BD8078BE5518</DocumentID>
-							<Name>000C29B1-EAB5-A1E8-B0B9-BD8078BE5518</Name>
-							<Description>000C29B1-EAB5-A1E8-B0B9-BD8078BE5518</Description>
-							<CreatedBy>psdev</CreatedBy>
-							<CreationDate>2018-09-28T06:25:30.771</CreationDate>
-							<Notes/>
-							<Length>40</Length>
-							<MinNumberOfDigits>5</MinNumberOfDigits>
-							<Prefix></Prefix>
-							<lowerBound>1</lowerBound>
-							<upperBound>1</upperBound>
-							<Type/>
-						</SequentialIdPropertyDefinition>
-					</OwnedTypeDefinition>
-					<Tooltip/>
-					<TypeDefinition>
-						<uri
-							id="000C29B1-EAB5-A1E8-B0B9-BD8078BE5518"
-						/>
-					</TypeDefinition>
-				</Property>
 			</Properties>
 		</IdentityBuildingBlock>
 		<RelationshipBuildingBlock
@@ -535,76 +462,6 @@
 				/>
 			</Entity>
 			<Properties>
-				<Property
-					type="com.cordys.entity.core.structure.property.Property"
-					RuntimeDocumentID="000C29B1-EAB5-A1E8-B0B9-BD8078C5D518">
-					<DocumentID>000C29B1-EAB5-A1E8-B0B9-BD8078C59518</DocumentID>
-					<Name>Description</Name>
-					<Description>Description</Description>
-					<CreatedBy>psdev</CreatedBy>
-					<CreationDate>2018-09-28T06:25:30.77</CreationDate>
-					<Notes/>
-					<ConflictLevel>None</ConflictLevel>
-					<DataType>LongText</DataType>
-					<ExposeForReuse>false</ExposeForReuse>
-					<Expression></Expression>
-					<IsComputedProperty>false</IsComputedProperty>
-					<IsReadOnly>false</IsReadOnly>
-					<IsRequired>false</IsRequired>
-					<IsValueUnique>false</IsValueUnique>
-					<StaticProperty></StaticProperty>
-					<Updatability>ReadWrite</Updatability>
-					<BuildingBlock>
-						<uri
-							id="000C29B1-EAB5-A1E8-B0B9-BD8078C61518"
-						/>
-					</BuildingBlock>
-					<DisplayName>
-						<TranslatableText
-							type="com.cordys.translation.TranslatableText"
-							typeVersion="45C16E88-6F36-465E-B18C-8A01E01D734C"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B0B9-BD8078C3D518">
-							<DocumentID>000C29B1-EAB5-A1E8-B0B9-BD8078C39518</DocumentID>
-							<Name>000C29B1-EAB5-A1E8-B0B9-BD8078C39518</Name>
-							<Description>000C29B1-EAB5-A1E8-B0B9-BD8078C39518</Description>
-							<CreatedBy>psdev</CreatedBy>
-							<CreationDate>2018-09-28T06:25:30.77</CreationDate>
-							<Notes/>
-							<DeveloperText>Description</DeveloperText>
-							<Identifier>
-								<uri
-									id="000C29B1-EAB5-A1E8-B0B9-BD8078C41518"
-								/>
-							</Identifier>
-						</TranslatableText>
-					</DisplayName>
-					<OwnedTypeDefinition>
-						<LongTextPropertyDefinition
-							type="com.cordys.entity.core.typesystem.primitives.text.LongTextPropertyDefinition"
-							typeVersion="4189E3FD-7E68-423A-8289-FEFAD1EC0ED8"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B0B9-BD8078C35518">
-							<DocumentID>000C29B1-EAB5-A1E8-B0B9-BD8078C31518</DocumentID>
-							<Name>000C29B1-EAB5-A1E8-B0B9-BD8078C31518</Name>
-							<Description>000C29B1-EAB5-A1E8-B0B9-BD8078C31518</Description>
-							<CreatedBy>psdev</CreatedBy>
-							<CreationDate>2018-09-28T06:25:30.773</CreationDate>
-							<Notes/>
-							<lowerBound>1</lowerBound>
-							<upperBound>1</upperBound>
-							<Type>
-								<uri
-									id="005056C0-0008-11E6-FAF9-068E75567F9D"
-								/>
-							</Type>
-						</LongTextPropertyDefinition>
-					</OwnedTypeDefinition>
-					<Tooltip/>
-					<TypeDefinition>
-						<uri
-							id="000C29B1-EAB5-A1E8-B0B9-BD8078C31518"
-						/>
-					</TypeDefinition>
-				</Property>
 				<Property
 					type="com.cordys.entity.core.structure.property.Property"
 					RuntimeDocumentID="000C29B1-EAB5-A1E8-B14D-833BF9751518">
@@ -739,7 +596,7 @@
 							<ComponentId>1</ComponentId>
 							<ComponentParentId>000C29B1-EAB5-A1E8-B0B9-BD8078B35518</ComponentParentId>
 							<ComponentType>FormsFragment</ComponentType>
-							<Definition>{&quot;isContainer&quot;:true,&quot;componentId&quot;:&quot;1&quot;,&quot;componentType&quot;:&quot;FormsFragment&quot;,&quot;componentParentId&quot;:&quot;000C29B1-EAB5-A1E8-B0B9-BD8078B35518&quot;,&quot;id&quot;:&quot;000C29B1-EAB5-A1E8-B0B9-BD8078B2D518&quot;,&quot;categories&quot;:&quot;&quot;,&quot;showOnMobile&quot;:true,&quot;autoResize&quot;:false,&quot;imageElementId&quot;:&quot;&quot;,&quot;nextHTMLContainerID&quot;:100,&quot;nextHTMLElementID&quot;:112,&quot;nextComponentID&quot;:112,&quot;presentationOptions&quot;:&quot;{\&quot;fontSize\&quot;:\&quot;\&quot;,\&quot;textDecoration\&quot;:\&quot;\&quot;,\&quot;color\&quot;:\&quot;\&quot;,\&quot;fontWeight\&quot;:\&quot;\&quot;,\&quot;fontStyle\&quot;:\&quot;\&quot;,\&quot;fontFamily\&quot;:\&quot;\&quot;}&quot;,&quot;showTitleBar&quot;:false,&quot;oldFormId&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;collapsible&quot;:false,&quot;collapsed&quot;:false,&quot;lastAddedComponentId&quot;:&quot;112OTLayout&quot;,&quot;headerBackgroundColor&quot;:&quot;&quot;,&quot;formId&quot;:&quot;000C29B1-EAB5-A1E8-B0B9-BD8078B35518&quot;,&quot;formElementName&quot;:&quot;&quot;,&quot;heightOfForm&quot;:436,&quot;widthOfForm&quot;:591,&quot;isGridOn&quot;:false,&quot;layout&quot;:&quot;{\&quot;divId\&quot;:\&quot;OTLayoutFormsFragment\&quot;,\&quot;left\&quot;:0,\&quot;top\&quot;:0,\&quot;right\&quot;:0,\&quot;bottom\&quot;:0,\&quot;overflow\&quot;:\&quot;hidden\&quot;,\&quot;leftBasePx\&quot;:0,\&quot;topBasePx\&quot;:0,\&quot;widthBasePx\&quot;:0,\&quot;heightBasePx\&quot;:0,\&quot;labelHeightBasePx\&quot;:25,\&quot;heightExtraForPadding\&quot;:0,\&quot;widthExtraForPadding\&quot;:0,\&quot;heightExtraForBorder\&quot;:0,\&quot;widthExtraForBorder\&quot;:0}&quot;}</Definition>
+							<Definition>{&quot;isContainer&quot;:true,&quot;componentId&quot;:&quot;1&quot;,&quot;componentType&quot;:&quot;FormsFragment&quot;,&quot;componentParentId&quot;:&quot;000C29B1-EAB5-A1E8-B0B9-BD8078B35518&quot;,&quot;id&quot;:&quot;000C29B1-EAB5-A1E8-B0B9-BD8078B2D518&quot;,&quot;categories&quot;:&quot;&quot;,&quot;showOnMobile&quot;:true,&quot;autoResize&quot;:false,&quot;imageElementId&quot;:&quot;&quot;,&quot;nextHTMLContainerID&quot;:100,&quot;nextHTMLElementID&quot;:120,&quot;nextComponentID&quot;:120,&quot;presentationOptions&quot;:&quot;{\&quot;fontSize\&quot;:\&quot;\&quot;,\&quot;textDecoration\&quot;:\&quot;\&quot;,\&quot;color\&quot;:\&quot;\&quot;,\&quot;fontWeight\&quot;:\&quot;\&quot;,\&quot;fontStyle\&quot;:\&quot;\&quot;,\&quot;fontFamily\&quot;:\&quot;\&quot;}&quot;,&quot;showTitleBar&quot;:false,&quot;oldFormId&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;collapsible&quot;:false,&quot;collapsed&quot;:false,&quot;lastAddedComponentId&quot;:&quot;120OTLayout&quot;,&quot;headerBackgroundColor&quot;:&quot;&quot;,&quot;formId&quot;:&quot;000C29B1-EAB5-A1E8-B0B9-BD8078B35518&quot;,&quot;formElementName&quot;:&quot;&quot;,&quot;heightOfForm&quot;:306,&quot;widthOfForm&quot;:271,&quot;isGridOn&quot;:false,&quot;layout&quot;:&quot;{\&quot;divId\&quot;:\&quot;OTLayoutFormsFragment\&quot;,\&quot;left\&quot;:0,\&quot;top\&quot;:0,\&quot;right\&quot;:0,\&quot;bottom\&quot;:0,\&quot;overflow\&quot;:\&quot;hidden\&quot;,\&quot;leftBasePx\&quot;:0,\&quot;topBasePx\&quot;:0,\&quot;widthBasePx\&quot;:0,\&quot;heightBasePx\&quot;:0,\&quot;labelHeightBasePx\&quot;:25,\&quot;heightExtraForPadding\&quot;:0,\&quot;widthExtraForPadding\&quot;:0,\&quot;heightExtraForBorder\&quot;:0,\&quot;widthExtraForBorder\&quot;:0}&quot;}</Definition>
 							<ElementType>FormTopContainerComponentType</ElementType>
 							<ElementTypeId>F1A7C0249CA3464CAE09FF03CE40B3E6</ElementTypeId>
 							<IsContainer>true</IsContainer>
@@ -789,11 +646,7 @@
 							</ParentComponent>
 							<PathRelationships/>
 							<PickerWorklist/>
-							<Property>
-								<uri
-									id="000C29B1-EAB5-A1E8-B0B9-BD8078C59518"
-								/>
-							</Property>
+							<Property/>
 							<Relationship/>
 							<RelationshipPath>
 								<RelationshipObjectPath
@@ -843,7 +696,7 @@
 							<ComponentId>109</ComponentId>
 							<ComponentParentId>000C29B1-EAB5-A1E8-B0B9-BD8078B2D518</ComponentParentId>
 							<ComponentType>MultiSelectComponent</ComponentType>
-							<Definition>{&quot;isContainer&quot;:false,&quot;componentId&quot;:&quot;109&quot;,&quot;componentType&quot;:&quot;MultiSelectComponent&quot;,&quot;componentParentId&quot;:&quot;000C29B1-EAB5-A1E8-B0B9-BD8078B2D518&quot;,&quot;id&quot;:&quot;000C29B1-EAB5-A1E8-B0B9-E286949B5518&quot;,&quot;categories&quot;:&quot;&quot;,&quot;showOnMobile&quot;:true,&quot;autoResize&quot;:false,&quot;listName&quot;:&quot;&quot;,&quot;context&quot;:&quot;InterestedParties&quot;,&quot;contextId&quot;:&quot;000C29B1-EAB5-A1E8-B0A4-A5C2667B1518&quot;,&quot;sourceElementId&quot;:&quot;000C29B1-EAB5-A1E8-B0A4-A5C2668AD518&quot;,&quot;relationElementId&quot;:&quot;000C29B1-EAB5-A1E8-B0A4-A5C2667B1518&quot;,&quot;targetElementId&quot;:&quot;F8B156B4-FF8F-11E6-E656-2305FE2BBF32&quot;,&quot;worklistElementId&quot;:&quot;F8B156B4-FF8F-11E6-EFC6-5B9F05A43F63&quot;,&quot;relationshipType&quot;:&quot;ToPeer&quot;,&quot;inverseType&quot;:&quot;ToOne&quot;,&quot;presentation&quot;:&quot;MultiSelect&quot;,&quot;lazyLoadingEnabled&quot;:false,&quot;isMinSelection&quot;:true,&quot;isMaxSelection&quot;:true,&quot;minSelections&quot;:&quot;&quot;,&quot;maxSelections&quot;:&quot;&quot;,&quot;multiSelectProperty&quot;:&quot;Interested Parties&quot;,&quot;propertyElementId&quot;:&quot;00505681-1998-11E6-EF7F-1A854566FF76&quot;,&quot;alternateText&quot;:&quot;Interested Parties&quot;,&quot;tooltip&quot;:&quot;Interested Parties&quot;,&quot;extraContextId&quot;:&quot;&quot;,&quot;presentationOptions&quot;:&quot;{\&quot;color\&quot;:\&quot;\&quot;,\&quot;fontWeight\&quot;:\&quot;\&quot;,\&quot;fontSize\&quot;:\&quot;\&quot;,\&quot;textDecoration\&quot;:\&quot;\&quot;,\&quot;fontStyle\&quot;:\&quot;\&quot;,\&quot;fontFamily\&quot;:\&quot;\&quot;}&quot;,&quot;showLabel&quot;:true,&quot;labelPosition&quot;:&quot;top&quot;,&quot;labelAlignment&quot;:&quot;left&quot;,&quot;isLeftResized&quot;:false,&quot;isRightResized&quot;:false,&quot;queryFilters&quot;:[&quot;Properties.DisplayName=ne(Null)&quot;],&quot;layout&quot;:&quot;{\&quot;divId\&quot;:\&quot;component_109\&quot;,\&quot;left\&quot;:30,\&quot;top\&quot;:150,\&quot;right\&quot;:551,\&quot;bottom\&quot;:276,\&quot;overflow\&quot;:\&quot;auto\&quot;,\&quot;leftBasePx\&quot;:30,\&quot;topBasePx\&quot;:150,\&quot;widthBasePx\&quot;:551,\&quot;heightBasePx\&quot;:276,\&quot;labelHeightBasePx\&quot;:25,\&quot;labelWidthBasePx\&quot;:551,\&quot;heightExtraForPadding\&quot;:0,\&quot;widthExtraForPadding\&quot;:0,\&quot;heightExtraForBorder\&quot;:0,\&quot;widthExtraForBorder\&quot;:0,\&quot;heightContainerUncollapsed\&quot;:276}&quot;}</Definition>
+							<Definition>{&quot;isContainer&quot;:false,&quot;componentId&quot;:&quot;109&quot;,&quot;componentType&quot;:&quot;MultiSelectComponent&quot;,&quot;componentParentId&quot;:&quot;000C29B1-EAB5-A1E8-B0B9-BD8078B2D518&quot;,&quot;id&quot;:&quot;000C29B1-EAB5-A1E8-B0B9-E286949B5518&quot;,&quot;categories&quot;:&quot;&quot;,&quot;showOnMobile&quot;:true,&quot;autoResize&quot;:false,&quot;listName&quot;:&quot;&quot;,&quot;context&quot;:&quot;InterestedParties&quot;,&quot;contextId&quot;:&quot;000C29B1-EAB5-A1E8-B0A4-A5C2667B1518&quot;,&quot;sourceElementId&quot;:&quot;000C29B1-EAB5-A1E8-B0A4-A5C2668AD518&quot;,&quot;relationElementId&quot;:&quot;000C29B1-EAB5-A1E8-B0A4-A5C2667B1518&quot;,&quot;targetElementId&quot;:&quot;F8B156B4-FF8F-11E6-E656-2305FE2BBF32&quot;,&quot;worklistElementId&quot;:&quot;F8B156B4-FF8F-11E6-EFC6-5B9F05A43F63&quot;,&quot;relationshipType&quot;:&quot;ToPeer&quot;,&quot;inverseType&quot;:&quot;ToOne&quot;,&quot;presentation&quot;:&quot;MultiSelect&quot;,&quot;lazyLoadingEnabled&quot;:false,&quot;isMinSelection&quot;:true,&quot;isMaxSelection&quot;:true,&quot;minSelections&quot;:&quot;&quot;,&quot;maxSelections&quot;:&quot;&quot;,&quot;multiSelectProperty&quot;:&quot;Interested Parties&quot;,&quot;propertyElementId&quot;:&quot;00505681-1998-11E6-EF7F-1A854566FF76&quot;,&quot;alternateText&quot;:&quot;Interested Parties&quot;,&quot;tooltip&quot;:&quot;Interested Parties&quot;,&quot;extraContextId&quot;:&quot;&quot;,&quot;presentationOptions&quot;:&quot;{\&quot;color\&quot;:\&quot;\&quot;,\&quot;fontWeight\&quot;:\&quot;\&quot;,\&quot;fontSize\&quot;:\&quot;\&quot;,\&quot;textDecoration\&quot;:\&quot;\&quot;,\&quot;fontStyle\&quot;:\&quot;\&quot;,\&quot;fontFamily\&quot;:\&quot;\&quot;}&quot;,&quot;showLabel&quot;:true,&quot;labelPosition&quot;:&quot;top&quot;,&quot;labelAlignment&quot;:&quot;left&quot;,&quot;isLeftResized&quot;:false,&quot;isRightResized&quot;:false,&quot;queryFilters&quot;:[&quot;Properties.DisplayName=ne(Null)&quot;],&quot;layout&quot;:&quot;{\&quot;divId\&quot;:\&quot;component_109\&quot;,\&quot;left\&quot;:20,\&quot;top\&quot;:20,\&quot;right\&quot;:241,\&quot;bottom\&quot;:276,\&quot;overflow\&quot;:\&quot;auto\&quot;,\&quot;leftBasePx\&quot;:20,\&quot;topBasePx\&quot;:20,\&quot;widthBasePx\&quot;:241,\&quot;heightBasePx\&quot;:276,\&quot;labelHeightBasePx\&quot;:25,\&quot;labelWidthBasePx\&quot;:241,\&quot;heightExtraForPadding\&quot;:0,\&quot;widthExtraForPadding\&quot;:0,\&quot;heightExtraForBorder\&quot;:0,\&quot;widthExtraForBorder\&quot;:0,\&quot;heightContainerUncollapsed\&quot;:276}&quot;}</Definition>
 							<ElementType>FormMultiSelectComponent</ElementType>
 							<ElementTypeId>969ED116232348558804BBED7FF13AF0</ElementTypeId>
 							<IsContainer>false</IsContainer>
@@ -984,7 +837,7 @@
 							<ComponentId>1</ComponentId>
 							<ComponentParentId>000C29B1-EAB5-A1E8-B0BA-0528331D5518</ComponentParentId>
 							<ComponentType>FormsFragment</ComponentType>
-							<Definition>{&quot;isContainer&quot;:true,&quot;componentId&quot;:&quot;1&quot;,&quot;componentType&quot;:&quot;FormsFragment&quot;,&quot;componentParentId&quot;:&quot;000C29B1-EAB5-A1E8-B0BA-0528331D5518&quot;,&quot;id&quot;:&quot;000C29B1-EAB5-A1E8-B0BA-0528331CD518&quot;,&quot;categories&quot;:&quot;&quot;,&quot;showOnMobile&quot;:true,&quot;autoResize&quot;:false,&quot;imageElementId&quot;:&quot;&quot;,&quot;nextHTMLContainerID&quot;:100,&quot;nextHTMLElementID&quot;:111,&quot;nextComponentID&quot;:111,&quot;presentationOptions&quot;:&quot;{\&quot;fontSize\&quot;:\&quot;\&quot;,\&quot;textDecoration\&quot;:\&quot;\&quot;,\&quot;color\&quot;:\&quot;\&quot;,\&quot;fontWeight\&quot;:\&quot;\&quot;,\&quot;fontStyle\&quot;:\&quot;\&quot;,\&quot;fontFamily\&quot;:\&quot;\&quot;}&quot;,&quot;showTitleBar&quot;:false,&quot;oldFormId&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;collapsible&quot;:false,&quot;collapsed&quot;:false,&quot;lastAddedComponentId&quot;:&quot;111OTLayout&quot;,&quot;headerBackgroundColor&quot;:&quot;&quot;,&quot;formId&quot;:&quot;000C29B1-EAB5-A1E8-B0BA-0528331D5518&quot;,&quot;formElementName&quot;:&quot;&quot;,&quot;heightOfForm&quot;:536,&quot;widthOfForm&quot;:581,&quot;isGridOn&quot;:false,&quot;layout&quot;:&quot;{\&quot;divId\&quot;:\&quot;OTLayoutFormsFragment\&quot;,\&quot;left\&quot;:0,\&quot;top\&quot;:0,\&quot;right\&quot;:0,\&quot;bottom\&quot;:0,\&quot;overflow\&quot;:\&quot;hidden\&quot;,\&quot;leftBasePx\&quot;:0,\&quot;topBasePx\&quot;:0,\&quot;widthBasePx\&quot;:0,\&quot;heightBasePx\&quot;:0,\&quot;labelHeightBasePx\&quot;:25,\&quot;heightExtraForPadding\&quot;:0,\&quot;widthExtraForPadding\&quot;:0,\&quot;heightExtraForBorder\&quot;:0,\&quot;widthExtraForBorder\&quot;:0}&quot;}</Definition>
+							<Definition>{&quot;isContainer&quot;:true,&quot;componentId&quot;:&quot;1&quot;,&quot;componentType&quot;:&quot;FormsFragment&quot;,&quot;componentParentId&quot;:&quot;000C29B1-EAB5-A1E8-B0BA-0528331D5518&quot;,&quot;id&quot;:&quot;000C29B1-EAB5-A1E8-B0BA-0528331CD518&quot;,&quot;categories&quot;:&quot;&quot;,&quot;showOnMobile&quot;:true,&quot;autoResize&quot;:false,&quot;imageElementId&quot;:&quot;&quot;,&quot;nextHTMLContainerID&quot;:100,&quot;nextHTMLElementID&quot;:113,&quot;nextComponentID&quot;:113,&quot;presentationOptions&quot;:&quot;{\&quot;fontSize\&quot;:\&quot;\&quot;,\&quot;textDecoration\&quot;:\&quot;\&quot;,\&quot;color\&quot;:\&quot;\&quot;,\&quot;fontWeight\&quot;:\&quot;\&quot;,\&quot;fontStyle\&quot;:\&quot;\&quot;,\&quot;fontFamily\&quot;:\&quot;\&quot;}&quot;,&quot;showTitleBar&quot;:false,&quot;oldFormId&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;collapsible&quot;:false,&quot;collapsed&quot;:false,&quot;lastAddedComponentId&quot;:&quot;113OTLayout&quot;,&quot;headerBackgroundColor&quot;:&quot;&quot;,&quot;formId&quot;:&quot;000C29B1-EAB5-A1E8-B0BA-0528331D5518&quot;,&quot;formElementName&quot;:&quot;&quot;,&quot;heightOfForm&quot;:612,&quot;widthOfForm&quot;:491,&quot;isGridOn&quot;:false,&quot;layout&quot;:&quot;{\&quot;divId\&quot;:\&quot;OTLayoutFormsFragment\&quot;,\&quot;left\&quot;:0,\&quot;top\&quot;:0,\&quot;right\&quot;:0,\&quot;bottom\&quot;:0,\&quot;overflow\&quot;:\&quot;hidden\&quot;,\&quot;leftBasePx\&quot;:0,\&quot;topBasePx\&quot;:0,\&quot;widthBasePx\&quot;:0,\&quot;heightBasePx\&quot;:0,\&quot;labelHeightBasePx\&quot;:25,\&quot;heightExtraForPadding\&quot;:0,\&quot;widthExtraForPadding\&quot;:0,\&quot;heightExtraForBorder\&quot;:0,\&quot;widthExtraForBorder\&quot;:0}&quot;}</Definition>
 							<ElementType>FormTopContainerComponentType</ElementType>
 							<ElementTypeId>F1A7C0249CA3464CAE09FF03CE40B3E6</ElementTypeId>
 							<IsContainer>true</IsContainer>
@@ -1034,11 +887,7 @@
 							</ParentComponent>
 							<PathRelationships/>
 							<PickerWorklist/>
-							<Property>
-								<uri
-									id="000C29B1-EAB5-A1E8-B0B9-BD8078C59518"
-								/>
-							</Property>
+							<Property/>
 							<Relationship/>
 							<RelationshipPath>
 								<RelationshipObjectPath
@@ -1088,7 +937,7 @@
 							<ComponentId>111</ComponentId>
 							<ComponentParentId>000C29B1-EAB5-A1E8-B0BA-0528331CD518</ComponentParentId>
 							<ComponentType>PropertyComponent</ComponentType>
-							<Definition>{&quot;isContainer&quot;:false,&quot;componentId&quot;:&quot;111&quot;,&quot;componentType&quot;:&quot;PropertyComponent&quot;,&quot;componentParentId&quot;:&quot;000C29B1-EAB5-A1E8-B0BA-0528331CD518&quot;,&quot;id&quot;:&quot;000C29B1-EAB5-A1E8-B14D-833BF96E5518&quot;,&quot;categories&quot;:&quot;&quot;,&quot;showOnMobile&quot;:true,&quot;autoResize&quot;:false,&quot;name&quot;:&quot;InterestedPartyEmails&quot;,&quot;required&quot;:false,&quot;readOnly&quot;:true,&quot;context&quot;:&quot;Properties.InterestedPartyEmails&quot;,&quot;contextId&quot;:&quot;000C29B1-EAB5-A1E8-B0B9-BD8078C61518.000C29B1-EAB5-A1E8-B14D-833BF974D518&quot;,&quot;entityElementId&quot;:&quot;000C29B1-EAB5-A1E8-B0A4-A5C2668AD518&quot;,&quot;propertyElementId&quot;:&quot;000C29B1-EAB5-A1E8-B14D-833BF974D518&quot;,&quot;presentation&quot;:&quot;dataEntryMultilineText&quot;,&quot;dataType&quot;:&quot;LongText&quot;,&quot;alternateText&quot;:&quot;&quot;,&quot;showLabel&quot;:true,&quot;presentationOptions&quot;:&quot;{\&quot;color\&quot;:\&quot;\&quot;,\&quot;fontWeight\&quot;:\&quot;\&quot;,\&quot;fontSize\&quot;:\&quot;\&quot;,\&quot;textDecoration\&quot;:\&quot;\&quot;,\&quot;textAlign\&quot;:\&quot;left\&quot;,\&quot;fontStyle\&quot;:\&quot;\&quot;,\&quot;fontFamily\&quot;:\&quot;\&quot;,\&quot;borderStyle\&quot;:\&quot;\&quot;,\&quot;borderWidth\&quot;:\&quot;\&quot;,\&quot;borderColor\&quot;:\&quot;\&quot;,\&quot;borderRadius\&quot;:\&quot;\&quot;,\&quot;label\&quot;:\&quot;Interested Party Emails\&quot;,\&quot;showLabel\&quot;:true}&quot;,&quot;currencyOptions&quot;:&quot;{}&quot;,&quot;formatOptions&quot;:&quot;{}&quot;,&quot;labelPosition&quot;:&quot;top&quot;,&quot;labelAlignment&quot;:&quot;left&quot;,&quot;isLeftResized&quot;:false,&quot;isRightResized&quot;:false,&quot;layout&quot;:&quot;{\&quot;divId\&quot;:\&quot;component_111\&quot;,\&quot;left\&quot;:30,\&quot;top\&quot;:140,\&quot;right\&quot;:541,\&quot;bottom\&quot;:106,\&quot;overflow\&quot;:\&quot;hidden\&quot;,\&quot;leftBasePx\&quot;:30,\&quot;topBasePx\&quot;:140,\&quot;widthBasePx\&quot;:541,\&quot;heightBasePx\&quot;:106,\&quot;labelHeightBasePx\&quot;:25,\&quot;labelWidthBasePx\&quot;:541,\&quot;componentWidthBasePx\&quot;:541,\&quot;heightExtraForPadding\&quot;:0,\&quot;widthExtraForPadding\&quot;:0,\&quot;heightExtraForBorder\&quot;:0,\&quot;widthExtraForBorder\&quot;:0,\&quot;heightContainerUncollapsed\&quot;:106}&quot;}</Definition>
+							<Definition>{&quot;isContainer&quot;:false,&quot;componentId&quot;:&quot;111&quot;,&quot;componentType&quot;:&quot;PropertyComponent&quot;,&quot;componentParentId&quot;:&quot;000C29B1-EAB5-A1E8-B0BA-0528331CD518&quot;,&quot;id&quot;:&quot;000C29B1-EAB5-A1E8-B14D-833BF96E5518&quot;,&quot;categories&quot;:&quot;&quot;,&quot;showOnMobile&quot;:true,&quot;autoResize&quot;:false,&quot;name&quot;:&quot;InterestedPartyEmails&quot;,&quot;required&quot;:false,&quot;readOnly&quot;:true,&quot;context&quot;:&quot;Properties.InterestedPartyEmails&quot;,&quot;contextId&quot;:&quot;000C29B1-EAB5-A1E8-B0B9-BD8078C61518.000C29B1-EAB5-A1E8-B14D-833BF974D518&quot;,&quot;entityElementId&quot;:&quot;000C29B1-EAB5-A1E8-B0A4-A5C2668AD518&quot;,&quot;propertyElementId&quot;:&quot;000C29B1-EAB5-A1E8-B14D-833BF974D518&quot;,&quot;presentation&quot;:&quot;dataEntryMultilineText&quot;,&quot;dataType&quot;:&quot;LongText&quot;,&quot;alternateText&quot;:&quot;&quot;,&quot;showLabel&quot;:true,&quot;presentationOptions&quot;:&quot;{\&quot;color\&quot;:\&quot;\&quot;,\&quot;fontWeight\&quot;:\&quot;\&quot;,\&quot;fontSize\&quot;:\&quot;\&quot;,\&quot;textDecoration\&quot;:\&quot;\&quot;,\&quot;textAlign\&quot;:\&quot;left\&quot;,\&quot;fontStyle\&quot;:\&quot;\&quot;,\&quot;fontFamily\&quot;:\&quot;\&quot;,\&quot;borderStyle\&quot;:\&quot;\&quot;,\&quot;borderWidth\&quot;:\&quot;\&quot;,\&quot;borderColor\&quot;:\&quot;\&quot;,\&quot;borderRadius\&quot;:\&quot;\&quot;,\&quot;label\&quot;:\&quot;Interested Party Emails\&quot;,\&quot;showLabel\&quot;:true}&quot;,&quot;currencyOptions&quot;:&quot;{}&quot;,&quot;formatOptions&quot;:&quot;{}&quot;,&quot;labelPosition&quot;:&quot;top&quot;,&quot;labelAlignment&quot;:&quot;left&quot;,&quot;isLeftResized&quot;:false,&quot;isRightResized&quot;:false,&quot;layout&quot;:&quot;{\&quot;divId\&quot;:\&quot;component_111\&quot;,\&quot;left\&quot;:10,\&quot;top\&quot;:10,\&quot;right\&quot;:471,\&quot;bottom\&quot;:106,\&quot;overflow\&quot;:\&quot;hidden\&quot;,\&quot;leftBasePx\&quot;:10,\&quot;topBasePx\&quot;:10,\&quot;widthBasePx\&quot;:471,\&quot;heightBasePx\&quot;:106,\&quot;labelHeightBasePx\&quot;:25,\&quot;labelWidthBasePx\&quot;:471,\&quot;componentWidthBasePx\&quot;:471,\&quot;heightExtraForPadding\&quot;:0,\&quot;widthExtraForPadding\&quot;:0,\&quot;heightExtraForBorder\&quot;:0,\&quot;widthExtraForBorder\&quot;:0,\&quot;heightContainerUncollapsed\&quot;:106}&quot;}</Definition>
 							<ElementType>FormPropertyComponent</ElementType>
 							<ElementTypeId>3EF4D668C77947318BB6936429E5526C</ElementTypeId>
 							<IsContainer>false</IsContainer>
@@ -1161,7 +1010,7 @@
 							<ComponentId>107</ComponentId>
 							<ComponentParentId>000C29B1-EAB5-A1E8-B0BA-0528331CD518</ComponentParentId>
 							<ComponentType>MultiSelectComponent</ComponentType>
-							<Definition>{&quot;isContainer&quot;:false,&quot;componentId&quot;:&quot;107&quot;,&quot;componentType&quot;:&quot;MultiSelectComponent&quot;,&quot;componentParentId&quot;:&quot;000C29B1-EAB5-A1E8-B0BA-0528331CD518&quot;,&quot;id&quot;:&quot;000C29B1-EAB5-A1E8-B0C2-849F66FA1518&quot;,&quot;categories&quot;:&quot;&quot;,&quot;showOnMobile&quot;:true,&quot;autoResize&quot;:false,&quot;listName&quot;:&quot;&quot;,&quot;context&quot;:&quot;InterestedParties&quot;,&quot;contextId&quot;:&quot;000C29B1-EAB5-A1E8-B0A4-A5C2667B1518&quot;,&quot;sourceElementId&quot;:&quot;000C29B1-EAB5-A1E8-B0A4-A5C2668AD518&quot;,&quot;relationElementId&quot;:&quot;000C29B1-EAB5-A1E8-B0A4-A5C2667B1518&quot;,&quot;targetElementId&quot;:&quot;F8B156B4-FF8F-11E6-E656-2305FE2BBF32&quot;,&quot;worklistElementId&quot;:&quot;F8B156B4-FF8F-11E6-EFC6-5B9F05A43F63&quot;,&quot;relationshipType&quot;:&quot;ToPeer&quot;,&quot;inverseType&quot;:&quot;ToOne&quot;,&quot;presentation&quot;:&quot;MultiSelect&quot;,&quot;lazyLoadingEnabled&quot;:false,&quot;isMinSelection&quot;:true,&quot;isMaxSelection&quot;:true,&quot;minSelections&quot;:&quot;&quot;,&quot;maxSelections&quot;:&quot;&quot;,&quot;multiSelectProperty&quot;:&quot;Interested Parties&quot;,&quot;propertyElementId&quot;:&quot;00505681-1998-11E6-EF7F-1A854566FF76&quot;,&quot;alternateText&quot;:&quot;Interested Parties&quot;,&quot;tooltip&quot;:&quot;Interested Parties&quot;,&quot;extraContextId&quot;:&quot;&quot;,&quot;presentationOptions&quot;:&quot;{\&quot;color\&quot;:\&quot;\&quot;,\&quot;fontWeight\&quot;:\&quot;\&quot;,\&quot;fontSize\&quot;:\&quot;\&quot;,\&quot;textDecoration\&quot;:\&quot;\&quot;,\&quot;fontStyle\&quot;:\&quot;\&quot;,\&quot;fontFamily\&quot;:\&quot;\&quot;}&quot;,&quot;showLabel&quot;:true,&quot;labelPosition&quot;:&quot;top&quot;,&quot;labelAlignment&quot;:&quot;left&quot;,&quot;isLeftResized&quot;:false,&quot;isRightResized&quot;:false,&quot;queryFilters&quot;:[&quot;Properties.DisplayName=ne(Null)&quot;],&quot;layout&quot;:&quot;{\&quot;divId\&quot;:\&quot;component_107\&quot;,\&quot;left\&quot;:30,\&quot;top\&quot;:270,\&quot;right\&quot;:541,\&quot;bottom\&quot;:256,\&quot;overflow\&quot;:\&quot;auto\&quot;,\&quot;leftBasePx\&quot;:30,\&quot;topBasePx\&quot;:270,\&quot;widthBasePx\&quot;:541,\&quot;heightBasePx\&quot;:256,\&quot;labelHeightBasePx\&quot;:25,\&quot;labelWidthBasePx\&quot;:541,\&quot;heightExtraForPadding\&quot;:0,\&quot;widthExtraForPadding\&quot;:0,\&quot;heightExtraForBorder\&quot;:0,\&quot;widthExtraForBorder\&quot;:0,\&quot;heightContainerUncollapsed\&quot;:256}&quot;}</Definition>
+							<Definition>{&quot;isContainer&quot;:false,&quot;componentId&quot;:&quot;107&quot;,&quot;componentType&quot;:&quot;MultiSelectComponent&quot;,&quot;componentParentId&quot;:&quot;000C29B1-EAB5-A1E8-B0BA-0528331CD518&quot;,&quot;id&quot;:&quot;000C29B1-EAB5-A1E8-B0C2-849F66FA1518&quot;,&quot;categories&quot;:&quot;&quot;,&quot;showOnMobile&quot;:true,&quot;autoResize&quot;:false,&quot;listName&quot;:&quot;&quot;,&quot;context&quot;:&quot;InterestedParties&quot;,&quot;contextId&quot;:&quot;000C29B1-EAB5-A1E8-B0A4-A5C2667B1518&quot;,&quot;sourceElementId&quot;:&quot;000C29B1-EAB5-A1E8-B0A4-A5C2668AD518&quot;,&quot;relationElementId&quot;:&quot;000C29B1-EAB5-A1E8-B0A4-A5C2667B1518&quot;,&quot;targetElementId&quot;:&quot;F8B156B4-FF8F-11E6-E656-2305FE2BBF32&quot;,&quot;worklistElementId&quot;:&quot;F8B156B4-FF8F-11E6-EFC6-5B9F05A43F63&quot;,&quot;relationshipType&quot;:&quot;ToPeer&quot;,&quot;inverseType&quot;:&quot;ToOne&quot;,&quot;presentation&quot;:&quot;MultiSelect&quot;,&quot;lazyLoadingEnabled&quot;:false,&quot;isMinSelection&quot;:true,&quot;isMaxSelection&quot;:true,&quot;minSelections&quot;:&quot;&quot;,&quot;maxSelections&quot;:&quot;&quot;,&quot;multiSelectProperty&quot;:&quot;Interested Parties&quot;,&quot;propertyElementId&quot;:&quot;00505681-1998-11E6-EF7F-1A854566FF76&quot;,&quot;alternateText&quot;:&quot;Interested Parties&quot;,&quot;tooltip&quot;:&quot;Interested Parties&quot;,&quot;extraContextId&quot;:&quot;&quot;,&quot;presentationOptions&quot;:&quot;{\&quot;color\&quot;:\&quot;\&quot;,\&quot;fontWeight\&quot;:\&quot;\&quot;,\&quot;fontSize\&quot;:\&quot;\&quot;,\&quot;textDecoration\&quot;:\&quot;\&quot;,\&quot;fontStyle\&quot;:\&quot;\&quot;,\&quot;fontFamily\&quot;:\&quot;\&quot;}&quot;,&quot;showLabel&quot;:true,&quot;labelPosition&quot;:&quot;top&quot;,&quot;labelAlignment&quot;:&quot;left&quot;,&quot;isLeftResized&quot;:false,&quot;isRightResized&quot;:false,&quot;queryFilters&quot;:[&quot;Properties.DisplayName=ne(Null)&quot;],&quot;layout&quot;:&quot;{\&quot;divId\&quot;:\&quot;component_107\&quot;,\&quot;left\&quot;:10,\&quot;top\&quot;:140,\&quot;right\&quot;:471,\&quot;bottom\&quot;:256,\&quot;overflow\&quot;:\&quot;auto\&quot;,\&quot;leftBasePx\&quot;:10,\&quot;topBasePx\&quot;:140,\&quot;widthBasePx\&quot;:471,\&quot;heightBasePx\&quot;:256,\&quot;labelHeightBasePx\&quot;:25,\&quot;labelWidthBasePx\&quot;:471,\&quot;heightExtraForPadding\&quot;:0,\&quot;widthExtraForPadding\&quot;:0,\&quot;heightExtraForBorder\&quot;:0,\&quot;widthExtraForBorder\&quot;:0,\&quot;heightContainerUncollapsed\&quot;:256}&quot;}</Definition>
 							<ElementType>FormMultiSelectComponent</ElementType>
 							<ElementTypeId>969ED116232348558804BBED7FF13AF0</ElementTypeId>
 							<IsContainer>false</IsContainer>
@@ -3902,23 +3751,7 @@
 			</Entity>
 			<FindOperations/>
 			<Original/>
-			<ReadOperation>
-				<EntityWebServiceReadOperation
-					type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
-					RuntimeDocumentID="000C29B1-EAB5-A1E8-B0BA-05283312D518">
-					<DocumentID>000C29B1-EAB5-A1E8-B0BA-052833129518</DocumentID>
-					<Name>ReadEgSendEmailToMany</Name>
-					<Description>Read EgSendEmailToMany</Description>
-					<CreatedBy>psdev</CreatedBy>
-					<CreationDate>2018-09-28T06:33:01.511</CreationDate>
-					<Notes/>
-					<Entity>
-						<uri
-							id="000C29B1-EAB5-A1E8-B0A4-A5C2668AD518"
-						/>
-					</Entity>
-				</EntityWebServiceReadOperation>
-			</ReadOperation>
+			<ReadOperation/>
 			<RelationshipOperations>
 				<EntityWebServiceRelationshipOperation
 					type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceRelationshipOperation"
@@ -3979,8 +3812,8 @@
 					type="com.cordys.entity.buildingblocks.worklist.Worklist"
 					RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C0-BB30F2EF1518">
 					<DocumentID>000C29B1-EAB5-A1E8-B0C0-BB30F2EED518</DocumentID>
-					<Name>ExampleEmailSendToMany</Name>
-					<Description>ExampleEmailSendToMany</Description>
+					<Name>EgEmailSendToMany</Name>
+					<Description>EgEmailSendToMany</Description>
 					<CreatedBy>psdev</CreatedBy>
 					<CreationDate>2018-09-28T09:48:51.292</CreationDate>
 					<Notes/>
@@ -4003,17 +3836,17 @@
 						<TranslatableText
 							type="com.cordys.translation.TranslatableText"
 							typeVersion="45C16E88-6F36-465E-B18C-8A01E01D734C"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C0-E75AECCB1518">
-							<DocumentID>000C29B1-EAB5-A1E8-B0C0-E75AECCAD518</DocumentID>
-							<Name>000C29B1-EAB5-A1E8-B0C0-E75AECCAD518</Name>
-							<Description>000C29B1-EAB5-A1E8-B0C0-E75AECCAD518</Description>
-							<CreatedBy>psdev</CreatedBy>
-							<CreationDate>2018-09-28T09:48:51.292</CreationDate>
+							RuntimeDocumentID="000C29B1-EAB5-A1E8-B184-E1B0EC7DD518">
+							<DocumentID>000C29B1-EAB5-A1E8-B184-E1B0EC7D9518</DocumentID>
+							<Name>000C29B1-EAB5-A1E8-B184-E1B0EC7D9518</Name>
+							<Description>000C29B1-EAB5-A1E8-B184-E1B0EC7D9518</Description>
+							<CreatedBy>AppWorks Developer</CreatedBy>
+							<CreationDate>2018-10-02T07:42:23.007</CreationDate>
 							<Notes/>
-							<DeveloperText>Example Email Send To Many</DeveloperText>
+							<DeveloperText>Eg Email Send To Many</DeveloperText>
 							<Identifier>
 								<uri
-									id="000C29B1-EAB5-A1E8-B0C0-E75AECCB5518"
+									id="000C29B1-EAB5-A1E8-B184-E1B0EC7E1518"
 								/>
 							</Identifier>
 						</TranslatableText>
@@ -4035,32 +3868,32 @@
 					<WorklistColumns>
 						<WorklistColumn
 							type="com.cordys.entity.buildingblocks.worklist.WorklistColumn"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C0-E75AECC2D518">
-							<DocumentID>000C29B1-EAB5-A1E8-B0C0-E75AECC29518</DocumentID>
+							RuntimeDocumentID="000C29B1-EAB5-A1E8-B185-86D53F171518">
+							<DocumentID>000C29B1-EAB5-A1E8-B185-86D53F16D518</DocumentID>
 							<Name>Untitled WorklistColumn</Name>
 							<Description>Untitled WorklistColumn</Description>
-							<CreatedBy>psdev</CreatedBy>
-							<CreationDate>2018-09-28T09:48:51.291</CreationDate>
+							<CreatedBy>AppWorks Developer</CreatedBy>
+							<CreationDate>2018-10-02T07:42:23.007</CreationDate>
 							<Notes/>
 							<ColumnAlignment>0</ColumnAlignment>
 							<ColumnLabel></ColumnLabel>
-							<DataType>Text</DataType>
+							<DataType>BigInteger</DataType>
 							<DefaultSortType>0</DefaultSortType>
-							<Definition></Definition>
-							<FormatterName>resultSimple</FormatterName>
+							<Definition>{ &quot;presentationType&quot;: &quot;value&quot; }</Definition>
+							<FormatterName>resultSimpleNumber</FormatterName>
 							<HiddenInResult>false</HiddenInResult>
 							<InForm>true</InForm>
 							<IsComputedProperty>false</IsComputedProperty>
 							<ItemMemberId>000C29B1-EAB5-A1E8-B0A4-A5C2668A9518</ItemMemberId>
 							<ItemMemberPath></ItemMemberPath>
 							<OwnerName>EgSendEmailToMany</OwnerName>
-							<PropertyId>000C29B1-EAB5-A1E8-B0B9-BD8078C09518</PropertyId>
-							<PropertyName>BusinessId</PropertyName>
+							<PropertyId>000C29B1-EAB5-A1E8-B0A4-A5C266881518</PropertyId>
+							<PropertyName>Id</PropertyName>
 							<StaticPropertyId></StaticPropertyId>
 							<LocalizableColumnLabel/>
 							<Property>
 								<uri
-									id="000C29B1-EAB5-A1E8-B0B9-BD8078C05518"
+									id="000C29B1-EAB5-A1E8-B0A4-A5C26687D518"
 								/>
 							</Property>
 							<WorklistDateFormat/>
@@ -4122,392 +3955,12 @@
 				<Rule
 					type="com.cordys.entity.buildingblocks.rule.Rule"
 					typeVersion="F2729367-E095-4216-AAC2-8AE1492A2B6E"
-					RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-74602CD5D518">
-					<DocumentID>000C29B1-EAB5-A1E8-B0C2-74602CD59518</DocumentID>
-					<Name>OnInterestedPartyChange</Name>
-					<Description>When an interested party changes, runs the process to update the list of email addresses on this entity</Description>
-					<CreatedBy>psdev</CreatedBy>
-					<CreationDate>2018-09-28T10:33:55.201</CreationDate>
-					<Notes/>
-					<ActionLogged>false</ActionLogged>
-					<ActionSignedByUser>false</ActionSignedByUser>
-					<AllowChangesFromAnotherEntity>0</AllowChangesFromAnotherEntity>
-					<BusinessProcessReference>000C29B1-EAB5-A1E8-B0BA-052833101518</BusinessProcessReference>
-					<BusinessProcessReferenceName>Util Update Interested Party Emails</BusinessProcessReferenceName>
-					<ButtonVisibility></ButtonVisibility>
-					<DefaultToAdvancedMode>0</DefaultToAdvancedMode>
-					<EnabledOnError>0</EnabledOnError>
-					<Expression>item.qpid(000C29B1EAB5A1E8B0A4A5C2668A9518.000C29B1EAB5A1E8B0B9BD8078C09518) is not null</Expression>
-					<IsRuleValid>1</IsRuleValid>
-					<PostRuleActionOption>0</PostRuleActionOption>
-					<PostRuleUrl></PostRuleUrl>
-					<PreRuleActionOption>0</PreRuleActionOption>
-					<PreRuleUrl></PreRuleUrl>
-					<RuleAction>{&quot;processName&quot;:&quot;Util Update Interested Party Emails&quot;,&quot;processId&quot;:&quot;000C29B1-EAB5-A1E8-B0BA-052833101518&quot;,&quot;fillPropertyWithProcessId&quot;:&quot;&quot;,&quot;runOnClient&quot;:false,&quot;runOnTransitionOnly&quot;:false,&quot;type&quot;:&quot;com.opentext.cordys.entityCore.elements.ruleElement.RuleActionStartProcess&quot;,&quot;sourceIsValid&quot;:true,&quot;targetIsValid&quot;:true,&quot;encodedSourceExpression&quot;:&quot;&quot;,&quot;encodedTargetExpression&quot;:&quot;&quot;,&quot;StyleDefinition&quot;:&quot;&lt;style&gt;&lt;background&gt;undefined&lt;/background&gt;&lt;color&gt;undefined&lt;/color&gt;&lt;fontStyle&gt;undefined&lt;/fontStyle&gt;&lt;fontWeight&gt;undefined&lt;/fontWeight&gt;&lt;textDecoration&gt;undefined&lt;/textDecoration&gt;&lt;borderColor&gt;undefined&lt;/borderColor&gt;&lt;labelColor&gt;undefined&lt;/labelColor&gt;&lt;labelFontWeight&gt;undefined&lt;/labelFontWeight&gt;&lt;labelTextDecaration&gt;undefined&lt;/labelTextDecaration&gt;&lt;labelFontStyle&gt;undefined&lt;/labelFontStyle&gt;&lt;/style&gt;&quot;}</RuleAction>
-					<RuleActionFormId></RuleActionFormId>
-					<RuleEventType>10</RuleEventType>
-					<RuleRelationshipId>000C29B1-EAB5-A1E8-B0A4-A5C2667B5518</RuleRelationshipId>
-					<ActionLogMessage/>
-					<BuildingBlock>
-						<uri
-							id="000C29B1-EAB5-A1E8-B0C2-74602CD61518"
-						/>
-					</BuildingBlock>
-					<BusinessProcess>
-						<uri
-							id="000C29B1-EAB5-A1E8-B0BA-0528330FD518"
-						/>
-					</BusinessProcess>
-					<DisplayName>
-						<TranslatableText
-							type="com.cordys.translation.TranslatableText"
-							typeVersion="45C16E88-6F36-465E-B18C-8A01E01D734C"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B14D-833BF97ED518">
-							<DocumentID>000C29B1-EAB5-A1E8-B14D-833BF97E9518</DocumentID>
-							<Name>000C29B1-EAB5-A1E8-B14D-833BF97E9518</Name>
-							<Description>000C29B1-EAB5-A1E8-B14D-833BF97E9518</Description>
-							<CreatedBy>AppWorks Developer</CreatedBy>
-							<CreationDate>2018-10-01T04:56:44.222</CreationDate>
-							<Notes/>
-							<DeveloperText>On Interested Party Change</DeveloperText>
-							<Identifier>
-								<uri
-									id="000C29B1-EAB5-A1E8-B14D-833BF97F1518"
-								/>
-							</Identifier>
-						</TranslatableText>
-					</DisplayName>
-					<InterestedEntities/>
-					<Original/>
-					<RuleActionForm/>
-					<RuleActionMessage/>
-					<RuleEntityExpression>
-						<EntityExpression
-							type="com.cordys.entity.services.entityexpression.EntityExpression"
-							typeVersion="D7105E79-E6B8-4AAB-BEDD-3F9A829B01E5"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-74602CD55518">
-							<DocumentID>000C29B1-EAB5-A1E8-B0C2-74602CD51518</DocumentID>
-							<Name>ruleEntityExpression</Name>
-							<Description>ruleEntityExpression</Description>
-							<CreatedBy>psdev</CreatedBy>
-							<CreationDate>2018-09-28T10:33:55.2</CreationDate>
-							<Notes/>
-							<EncodedExpression>item.qpid(000C29B1EAB5A1E8B0A4A5C2668A9518.000C29B1EAB5A1E8B0B9BD8078C09518) is not null</EncodedExpression>
-							<ErrorMessage> </ErrorMessage>
-							<HumanExpression>item.Identity.BusinessId is not null</HumanExpression>
-							<IsAdvancedOnly>0</IsAdvancedOnly>
-							<IsPropertyNameOnly>0</IsPropertyNameOnly>
-							<IsValid>1</IsValid>
-							<QueryCriteria>{&quot;type&quot;:&quot;AND&quot;,&quot;id&quot;:&quot;B90A65AC68B24670ACA6C6B23C4D0B7B&quot;,&quot;terms&quot;:[{&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;000C29B1EAB5A1E8B0B9BD8078C09518&quot;,&quot;itemMemberId&quot;:&quot;000C29B1EAB5A1E8B0A4A5C2668A9518&quot;,&quot;propertyId&quot;:&quot;000C29B1EAB5A1E8B0B9BD8078C09518&quot;,&quot;dataType&quot;:&quot;Text&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;IsNotNull&quot;},&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;000C29B1EAB5A1E8B0A4A5C2668A9518&quot;,&quot;propertyId&quot;:&quot;000C29B1EAB5A1E8B0B9BD8078C09518&quot;},&quot;fullHumanPropertyName&quot;:&quot;item.Identity.BusinessId&quot;}]}</QueryCriteria>
-							<DisplayName/>
-							<Entity>
-								<uri
-									id="000C29B1-EAB5-A1E8-B0A4-A5C2668AD518"
-								/>
-							</Entity>
-							<ExpressionOwner>
-								<uri
-									id="000C29B1-EAB5-A1E8-B0C2-74602CD59518"
-								/>
-							</ExpressionOwner>
-							<ParameterOwner/>
-							<UsedProperties>
-								<PropertyObjectPath
-									type="com.cordys.entity.core.objectpath.PropertyObjectPath"
-									RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-EE62E82BD518">
-									<DocumentID>000C29B1-EAB5-A1E8-B0C2-EE62E82B9518</DocumentID>
-									<Name>000C29B1-EAB5-A1E8-B0C2-EE62E82B9518</Name>
-									<Description>000C29B1-EAB5-A1E8-B0C2-EE62E82B9518</Description>
-									<CreatedBy>psdev</CreatedBy>
-									<CreationDate>2018-09-28T12:00:18.696</CreationDate>
-									<Notes/>
-									<NumberOfIntermediateRelationships>0</NumberOfIntermediateRelationships>
-									<IntermediateRelationships/>
-									<Object>
-										<uri
-											id="000C29B1-EAB5-A1E8-B0C2-74602CD51518"
-										/>
-									</Object>
-									<ObjectOwner>
-										<uri
-											id="000C29B1-EAB5-A1E8-B0C2-74602CD59518"
-										/>
-									</ObjectOwner>
-									<PathBegin>
-										<uri
-											id="000C29B1-EAB5-A1E8-B0A4-A5C2668AD518"
-										/>
-									</PathBegin>
-									<PathEnd>
-										<uri
-											id="000C29B1-EAB5-A1E8-B0B9-BD8078C05518"
-										/>
-									</PathEnd>
-									<RootOwner>
-										<uri
-											id="000C29B1-EAB5-A1E8-B0A4-A5C2668AD518"
-										/>
-									</RootOwner>
-								</PropertyObjectPath>
-							</UsedProperties>
-						</EntityExpression>
-					</RuleEntityExpression>
-					<RuleProperties/>
-					<RuleRelationship>
-						<uri
-							id="000C29B1-EAB5-A1E8-B0A4-A5C2667B1518"
-						/>
-					</RuleRelationship>
-					<RuleSetSourceEntityExpression>
-						<EntityExpression
-							type="com.cordys.entity.services.entityexpression.EntityExpression"
-							typeVersion="D7105E79-E6B8-4AAB-BEDD-3F9A829B01E5"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-74602CD45518">
-							<DocumentID>000C29B1-EAB5-A1E8-B0C2-74602CD41518</DocumentID>
-							<Name>ruleSetSourceEntityExpression</Name>
-							<Description>ruleSetSourceEntityExpression</Description>
-							<CreatedBy>psdev</CreatedBy>
-							<CreationDate>2018-09-28T10:33:55.2</CreationDate>
-							<Notes/>
-							<EncodedExpression></EncodedExpression>
-							<ErrorMessage></ErrorMessage>
-							<HumanExpression></HumanExpression>
-							<IsAdvancedOnly>0</IsAdvancedOnly>
-							<IsPropertyNameOnly>0</IsPropertyNameOnly>
-							<IsValid>1</IsValid>
-							<QueryCriteria></QueryCriteria>
-							<DisplayName/>
-							<Entity>
-								<uri
-									id="000C29B1-EAB5-A1E8-B0A4-A5C2668AD518"
-								/>
-							</Entity>
-							<ExpressionOwner>
-								<uri
-									id="000C29B1-EAB5-A1E8-B0C2-74602CD59518"
-								/>
-							</ExpressionOwner>
-							<ParameterOwner/>
-							<UsedProperties/>
-						</EntityExpression>
-					</RuleSetSourceEntityExpression>
-					<RuleSetTargetEntityExpression>
-						<EntityExpression
-							type="com.cordys.entity.services.entityexpression.EntityExpression"
-							typeVersion="D7105E79-E6B8-4AAB-BEDD-3F9A829B01E5"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-74602CD4D518">
-							<DocumentID>000C29B1-EAB5-A1E8-B0C2-74602CD49518</DocumentID>
-							<Name>ruleSetTargetEntityExpression</Name>
-							<Description>ruleSetTargetEntityExpression</Description>
-							<CreatedBy>psdev</CreatedBy>
-							<CreationDate>2018-09-28T10:33:55.2</CreationDate>
-							<Notes/>
-							<EncodedExpression></EncodedExpression>
-							<ErrorMessage></ErrorMessage>
-							<HumanExpression></HumanExpression>
-							<IsAdvancedOnly>0</IsAdvancedOnly>
-							<IsPropertyNameOnly>0</IsPropertyNameOnly>
-							<IsValid>1</IsValid>
-							<QueryCriteria></QueryCriteria>
-							<DisplayName/>
-							<Entity>
-								<uri
-									id="000C29B1-EAB5-A1E8-B0A4-A5C2668AD518"
-								/>
-							</Entity>
-							<ExpressionOwner>
-								<uri
-									id="000C29B1-EAB5-A1E8-B0C2-74602CD59518"
-								/>
-							</ExpressionOwner>
-							<ParameterOwner/>
-							<UsedProperties/>
-						</EntityExpression>
-					</RuleSetTargetEntityExpression>
-					<UserEntity>
-						<uri
-							id="F8B156E1-0371-11E6-E9CB-0FBF3334DBBF"
-						/>
-					</UserEntity>
-				</Rule>
-				<Rule
-					type="com.cordys.entity.buildingblocks.rule.Rule"
-					typeVersion="F2729367-E095-4216-AAC2-8AE1492A2B6E"
-					RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-EE62E8285518">
-					<DocumentID>000C29B1-EAB5-A1E8-B0C2-EE62E8281518</DocumentID>
-					<Name>OnCreateSetInterestedPartiesEmail</Name>
-					<Description>When a new entity is created, runs the process to update the list of email addresses on this entity</Description>
-					<CreatedBy>psdev</CreatedBy>
-					<CreationDate>2018-09-28T12:01:56.975</CreationDate>
-					<Notes/>
-					<ActionLogged>false</ActionLogged>
-					<ActionSignedByUser>false</ActionSignedByUser>
-					<AllowChangesFromAnotherEntity>0</AllowChangesFromAnotherEntity>
-					<BusinessProcessReference>000C29B1-EAB5-A1E8-B0BA-052833101518</BusinessProcessReference>
-					<BusinessProcessReferenceName>Util Update Interested Party Emails</BusinessProcessReferenceName>
-					<ButtonVisibility></ButtonVisibility>
-					<DefaultToAdvancedMode>0</DefaultToAdvancedMode>
-					<EnabledOnError>0</EnabledOnError>
-					<Expression></Expression>
-					<IsRuleValid>1</IsRuleValid>
-					<PostRuleActionOption>0</PostRuleActionOption>
-					<PostRuleUrl></PostRuleUrl>
-					<PreRuleActionOption>0</PreRuleActionOption>
-					<PreRuleUrl></PreRuleUrl>
-					<RuleAction>{&quot;processName&quot;:&quot;Util Update Interested Party Emails&quot;,&quot;processId&quot;:&quot;000C29B1-EAB5-A1E8-B0BA-052833101518&quot;,&quot;fillPropertyWithProcessId&quot;:&quot;&quot;,&quot;runOnClient&quot;:false,&quot;runOnTransitionOnly&quot;:false,&quot;type&quot;:&quot;com.opentext.cordys.entityCore.elements.ruleElement.RuleActionStartProcess&quot;,&quot;sourceIsValid&quot;:true,&quot;targetIsValid&quot;:true,&quot;encodedSourceExpression&quot;:&quot;&quot;,&quot;encodedTargetExpression&quot;:&quot;&quot;,&quot;StyleDefinition&quot;:&quot;&lt;style&gt;&lt;background&gt;undefined&lt;/background&gt;&lt;color&gt;undefined&lt;/color&gt;&lt;fontStyle&gt;undefined&lt;/fontStyle&gt;&lt;fontWeight&gt;undefined&lt;/fontWeight&gt;&lt;textDecoration&gt;undefined&lt;/textDecoration&gt;&lt;borderColor&gt;undefined&lt;/borderColor&gt;&lt;labelColor&gt;undefined&lt;/labelColor&gt;&lt;labelFontWeight&gt;undefined&lt;/labelFontWeight&gt;&lt;labelTextDecaration&gt;undefined&lt;/labelTextDecaration&gt;&lt;labelFontStyle&gt;undefined&lt;/labelFontStyle&gt;&lt;/style&gt;&quot;}</RuleAction>
-					<RuleActionFormId></RuleActionFormId>
-					<RuleEventType>2</RuleEventType>
-					<RuleRelationshipId></RuleRelationshipId>
-					<ActionLogMessage/>
-					<BuildingBlock>
-						<uri
-							id="000C29B1-EAB5-A1E8-B0C2-74602CD61518"
-						/>
-					</BuildingBlock>
-					<BusinessProcess>
-						<uri
-							id="000C29B1-EAB5-A1E8-B0BA-0528330FD518"
-						/>
-					</BusinessProcess>
-					<DisplayName>
-						<TranslatableText
-							type="com.cordys.translation.TranslatableText"
-							typeVersion="45C16E88-6F36-465E-B18C-8A01E01D734C"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B14D-833BF9809518">
-							<DocumentID>000C29B1-EAB5-A1E8-B14D-833BF9805518</DocumentID>
-							<Name>000C29B1-EAB5-A1E8-B14D-833BF9805518</Name>
-							<Description>000C29B1-EAB5-A1E8-B14D-833BF9805518</Description>
-							<CreatedBy>AppWorks Developer</CreatedBy>
-							<CreationDate>2018-10-01T04:56:44.223</CreationDate>
-							<Notes/>
-							<DeveloperText>OnCreate Set InterestedPartiesEmail</DeveloperText>
-							<Identifier>
-								<uri
-									id="000C29B1-EAB5-A1E8-B14D-833BF980D518"
-								/>
-							</Identifier>
-						</TranslatableText>
-					</DisplayName>
-					<InterestedEntities/>
-					<Original/>
-					<RuleActionForm/>
-					<RuleActionMessage/>
-					<RuleEntityExpression>
-						<EntityExpression
-							type="com.cordys.entity.services.entityexpression.EntityExpression"
-							typeVersion="D7105E79-E6B8-4AAB-BEDD-3F9A829B01E5"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-EE62E827D518">
-							<DocumentID>000C29B1-EAB5-A1E8-B0C2-EE62E8279518</DocumentID>
-							<Name>ruleEntityExpression</Name>
-							<Description>ruleEntityExpression</Description>
-							<CreatedBy>psdev</CreatedBy>
-							<CreationDate>2018-09-28T12:01:56.975</CreationDate>
-							<Notes/>
-							<EncodedExpression></EncodedExpression>
-							<ErrorMessage></ErrorMessage>
-							<HumanExpression></HumanExpression>
-							<IsAdvancedOnly>0</IsAdvancedOnly>
-							<IsPropertyNameOnly>0</IsPropertyNameOnly>
-							<IsValid>1</IsValid>
-							<QueryCriteria></QueryCriteria>
-							<DisplayName/>
-							<Entity>
-								<uri
-									id="000C29B1-EAB5-A1E8-B0A4-A5C2668AD518"
-								/>
-							</Entity>
-							<ExpressionOwner>
-								<uri
-									id="000C29B1-EAB5-A1E8-B0C2-EE62E8281518"
-								/>
-							</ExpressionOwner>
-							<ParameterOwner/>
-							<UsedProperties/>
-						</EntityExpression>
-					</RuleEntityExpression>
-					<RuleProperties/>
-					<RuleRelationship/>
-					<RuleSetSourceEntityExpression>
-						<EntityExpression
-							type="com.cordys.entity.services.entityexpression.EntityExpression"
-							typeVersion="D7105E79-E6B8-4AAB-BEDD-3F9A829B01E5"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-EE62E826D518">
-							<DocumentID>000C29B1-EAB5-A1E8-B0C2-EE62E8269518</DocumentID>
-							<Name>ruleSetSourceEntityExpression</Name>
-							<Description>ruleSetSourceEntityExpression</Description>
-							<CreatedBy>psdev</CreatedBy>
-							<CreationDate>2018-09-28T12:01:56.975</CreationDate>
-							<Notes/>
-							<EncodedExpression></EncodedExpression>
-							<ErrorMessage></ErrorMessage>
-							<HumanExpression></HumanExpression>
-							<IsAdvancedOnly>0</IsAdvancedOnly>
-							<IsPropertyNameOnly>0</IsPropertyNameOnly>
-							<IsValid>1</IsValid>
-							<QueryCriteria></QueryCriteria>
-							<DisplayName/>
-							<Entity>
-								<uri
-									id="000C29B1-EAB5-A1E8-B0A4-A5C2668AD518"
-								/>
-							</Entity>
-							<ExpressionOwner>
-								<uri
-									id="000C29B1-EAB5-A1E8-B0C2-EE62E8281518"
-								/>
-							</ExpressionOwner>
-							<ParameterOwner/>
-							<UsedProperties/>
-						</EntityExpression>
-					</RuleSetSourceEntityExpression>
-					<RuleSetTargetEntityExpression>
-						<EntityExpression
-							type="com.cordys.entity.services.entityexpression.EntityExpression"
-							typeVersion="D7105E79-E6B8-4AAB-BEDD-3F9A829B01E5"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B0C2-EE62E8275518">
-							<DocumentID>000C29B1-EAB5-A1E8-B0C2-EE62E8271518</DocumentID>
-							<Name>ruleSetTargetEntityExpression</Name>
-							<Description>ruleSetTargetEntityExpression</Description>
-							<CreatedBy>psdev</CreatedBy>
-							<CreationDate>2018-09-28T12:01:56.975</CreationDate>
-							<Notes/>
-							<EncodedExpression></EncodedExpression>
-							<ErrorMessage></ErrorMessage>
-							<HumanExpression></HumanExpression>
-							<IsAdvancedOnly>0</IsAdvancedOnly>
-							<IsPropertyNameOnly>0</IsPropertyNameOnly>
-							<IsValid>1</IsValid>
-							<QueryCriteria></QueryCriteria>
-							<DisplayName/>
-							<Entity>
-								<uri
-									id="000C29B1-EAB5-A1E8-B0A4-A5C2668AD518"
-								/>
-							</Entity>
-							<ExpressionOwner>
-								<uri
-									id="000C29B1-EAB5-A1E8-B0C2-EE62E8281518"
-								/>
-							</ExpressionOwner>
-							<ParameterOwner/>
-							<UsedProperties/>
-						</EntityExpression>
-					</RuleSetTargetEntityExpression>
-					<UserEntity>
-						<uri
-							id="F8B156E1-0371-11E6-E9CB-0FBF3334DBBF"
-						/>
-					</UserEntity>
-				</Rule>
-				<Rule
-					type="com.cordys.entity.buildingblocks.rule.Rule"
-					typeVersion="F2729367-E095-4216-AAC2-8AE1492A2B6E"
-					RuntimeDocumentID="000C29B1-EAB5-A1E8-B130-2E9D563F1518">
-					<DocumentID>000C29B1-EAB5-A1E8-B130-2E9D563ED518</DocumentID>
-					<Name>ClearValueTo</Name>
-					<Description>When the last interested party is removed, clears the list of email addresses on this entity, as the process is not able to</Description>
-					<CreatedBy>psdev</CreatedBy>
-					<CreationDate>2018-09-30T15:15:42.405</CreationDate>
+					RuntimeDocumentID="000C29B1-EAB5-A1E8-B192-7079FD85D518">
+					<DocumentID>000C29B1-EAB5-A1E8-B192-7079FD859518</DocumentID>
+					<Name>OnChangeInterestedPartyClear</Name>
+					<Description>OnChangeInterestedPartyClear</Description>
+					<CreatedBy>AppWorks Developer</CreatedBy>
+					<CreationDate>2018-10-02T14:23:54.196</CreationDate>
 					<Notes/>
 					<ActionLogged>false</ActionLogged>
 					<ActionSignedByUser>false</ActionSignedByUser>
@@ -4538,17 +3991,17 @@
 						<TranslatableText
 							type="com.cordys.translation.TranslatableText"
 							typeVersion="45C16E88-6F36-465E-B18C-8A01E01D734C"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B130-2E9D563A1518">
-							<DocumentID>000C29B1-EAB5-A1E8-B130-2E9D5639D518</DocumentID>
-							<Name>000C29B1-EAB5-A1E8-B130-2E9D5639D518</Name>
-							<Description>000C29B1-EAB5-A1E8-B130-2E9D5639D518</Description>
-							<CreatedBy>psdev</CreatedBy>
-							<CreationDate>2018-09-30T15:15:42.405</CreationDate>
+							RuntimeDocumentID="000C29B1-EAB5-A1E8-B193-A95655FFD518">
+							<DocumentID>000C29B1-EAB5-A1E8-B193-A95655FF9518</DocumentID>
+							<Name>000C29B1-EAB5-A1E8-B193-A95655FF9518</Name>
+							<Description>000C29B1-EAB5-A1E8-B193-A95655FF9518</Description>
+							<CreatedBy>AppWorks Developer</CreatedBy>
+							<CreationDate>2018-10-02T14:23:54.196</CreationDate>
 							<Notes/>
-							<DeveloperText>Clear Value To</DeveloperText>
+							<DeveloperText>OnChange Interested Party Clear</DeveloperText>
 							<Identifier>
 								<uri
-									id="000C29B1-EAB5-A1E8-B130-2E9D563A5518"
+									id="000C29B1-EAB5-A1E8-B193-A95656001518"
 								/>
 							</Identifier>
 						</TranslatableText>
@@ -4561,12 +4014,12 @@
 						<EntityExpression
 							type="com.cordys.entity.services.entityexpression.EntityExpression"
 							typeVersion="D7105E79-E6B8-4AAB-BEDD-3F9A829B01E5"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B130-2E9D563E9518">
-							<DocumentID>000C29B1-EAB5-A1E8-B130-2E9D563E5518</DocumentID>
+							RuntimeDocumentID="000C29B1-EAB5-A1E8-B193-A9565602D518">
+							<DocumentID>000C29B1-EAB5-A1E8-B193-A95656029518</DocumentID>
 							<Name>ruleEntityExpression</Name>
 							<Description>ruleEntityExpression</Description>
-							<CreatedBy>psdev</CreatedBy>
-							<CreationDate>2018-09-30T15:15:42.405</CreationDate>
+							<CreatedBy>AppWorks Developer</CreatedBy>
+							<CreationDate>2018-10-02T14:23:54.195</CreationDate>
 							<Notes/>
 							<EncodedExpression>item.qpid(000C29B1EAB5A1E8B0B9BD8078C65518.000C29B1EAB5A1E8B14D833BF9751518)==&quot;none&quot;</EncodedExpression>
 							<ErrorMessage> </ErrorMessage>
@@ -4574,7 +4027,7 @@
 							<IsAdvancedOnly>0</IsAdvancedOnly>
 							<IsPropertyNameOnly>0</IsPropertyNameOnly>
 							<IsValid>1</IsValid>
-							<QueryCriteria>{&quot;type&quot;:&quot;AND&quot;,&quot;id&quot;:&quot;89DDF65B6180482681C5B42EF78BD069&quot;,&quot;terms&quot;:[{&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;000C29B1EAB5A1E8B14D833BF9751518&quot;,&quot;itemMemberId&quot;:&quot;000C29B1EAB5A1E8B0B9BD8078C65518&quot;,&quot;propertyId&quot;:&quot;000C29B1EAB5A1E8B14D833BF9751518&quot;,&quot;dataType&quot;:&quot;LongText&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;eq&quot;,&quot;value&quot;:&quot;none&quot;,&quot;isValueExpression&quot;:false},&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;000C29B1EAB5A1E8B0B9BD8078C65518&quot;,&quot;propertyId&quot;:&quot;000C29B1EAB5A1E8B14D833BF9751518&quot;},&quot;fullHumanPropertyName&quot;:&quot;item.Properties.InterestedPartyEmails&quot;}]}</QueryCriteria>
+							<QueryCriteria>{&quot;type&quot;:&quot;AND&quot;,&quot;id&quot;:&quot;1EEB01F260254DDB8C4710E9B75366DA&quot;,&quot;terms&quot;:[{&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;000C29B1EAB5A1E8B14D833BF9751518&quot;,&quot;itemMemberId&quot;:&quot;000C29B1EAB5A1E8B0B9BD8078C65518&quot;,&quot;propertyId&quot;:&quot;000C29B1EAB5A1E8B14D833BF9751518&quot;,&quot;dataType&quot;:&quot;LongText&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;eq&quot;,&quot;value&quot;:&quot;none&quot;,&quot;isValueExpression&quot;:false},&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;000C29B1EAB5A1E8B0B9BD8078C65518&quot;,&quot;propertyId&quot;:&quot;000C29B1EAB5A1E8B14D833BF9751518&quot;},&quot;fullHumanPropertyName&quot;:&quot;item.Properties.InterestedPartyEmails&quot;}]}</QueryCriteria>
 							<DisplayName/>
 							<Entity>
 								<uri
@@ -4583,30 +4036,30 @@
 							</Entity>
 							<ExpressionOwner>
 								<uri
-									id="000C29B1-EAB5-A1E8-B130-2E9D563ED518"
+									id="000C29B1-EAB5-A1E8-B192-7079FD859518"
 								/>
 							</ExpressionOwner>
 							<ParameterOwner/>
 							<UsedProperties>
 								<PropertyObjectPath
 									type="com.cordys.entity.core.objectpath.PropertyObjectPath"
-									RuntimeDocumentID="000C29B1-EAB5-A1E8-B14D-D8EE95355518">
-									<DocumentID>000C29B1-EAB5-A1E8-B14D-D8EE95351518</DocumentID>
-									<Name>000C29B1-EAB5-A1E8-B14D-D8EE95351518</Name>
-									<Description>000C29B1-EAB5-A1E8-B14D-D8EE95351518</Description>
+									RuntimeDocumentID="000C29B1-EAB5-A1E8-B193-A95655FF1518">
+									<DocumentID>000C29B1-EAB5-A1E8-B193-A95655FED518</DocumentID>
+									<Name>000C29B1-EAB5-A1E8-B193-A95655FED518</Name>
+									<Description>000C29B1-EAB5-A1E8-B193-A95655FED518</Description>
 									<CreatedBy>AppWorks Developer</CreatedBy>
-									<CreationDate>2018-10-01T05:04:13.992</CreationDate>
+									<CreationDate>2018-10-02T14:23:54.196</CreationDate>
 									<Notes/>
 									<NumberOfIntermediateRelationships>0</NumberOfIntermediateRelationships>
 									<IntermediateRelationships/>
 									<Object>
 										<uri
-											id="000C29B1-EAB5-A1E8-B130-2E9D563E5518"
+											id="000C29B1-EAB5-A1E8-B193-A95656029518"
 										/>
 									</Object>
 									<ObjectOwner>
 										<uri
-											id="000C29B1-EAB5-A1E8-B130-2E9D563ED518"
+											id="000C29B1-EAB5-A1E8-B192-7079FD859518"
 										/>
 									</ObjectOwner>
 									<PathBegin>
@@ -4634,12 +4087,12 @@
 						<EntityExpression
 							type="com.cordys.entity.services.entityexpression.EntityExpression"
 							typeVersion="D7105E79-E6B8-4AAB-BEDD-3F9A829B01E5"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B130-2E9D563D9518">
-							<DocumentID>000C29B1-EAB5-A1E8-B130-2E9D563D5518</DocumentID>
+							RuntimeDocumentID="000C29B1-EAB5-A1E8-B193-A9565601D518">
+							<DocumentID>000C29B1-EAB5-A1E8-B193-A95656019518</DocumentID>
 							<Name>ruleSetSourceEntityExpression</Name>
 							<Description>ruleSetSourceEntityExpression</Description>
-							<CreatedBy>psdev</CreatedBy>
-							<CreationDate>2018-09-30T15:15:42.404</CreationDate>
+							<CreatedBy>AppWorks Developer</CreatedBy>
+							<CreationDate>2018-10-02T14:23:54.196</CreationDate>
 							<Notes/>
 							<EncodedExpression>''</EncodedExpression>
 							<ErrorMessage> </ErrorMessage>
@@ -4656,7 +4109,7 @@
 							</Entity>
 							<ExpressionOwner>
 								<uri
-									id="000C29B1-EAB5-A1E8-B130-2E9D563ED518"
+									id="000C29B1-EAB5-A1E8-B192-7079FD859518"
 								/>
 							</ExpressionOwner>
 							<ParameterOwner/>
@@ -4667,12 +4120,12 @@
 						<EntityExpression
 							type="com.cordys.entity.services.entityexpression.EntityExpression"
 							typeVersion="D7105E79-E6B8-4AAB-BEDD-3F9A829B01E5"
-							RuntimeDocumentID="000C29B1-EAB5-A1E8-B130-2E9D563E1518">
-							<DocumentID>000C29B1-EAB5-A1E8-B130-2E9D563DD518</DocumentID>
+							RuntimeDocumentID="000C29B1-EAB5-A1E8-B193-A95656025518">
+							<DocumentID>000C29B1-EAB5-A1E8-B193-A95656021518</DocumentID>
 							<Name>ruleSetTargetEntityExpression</Name>
 							<Description>ruleSetTargetEntityExpression</Description>
-							<CreatedBy>psdev</CreatedBy>
-							<CreationDate>2018-09-30T15:15:42.405</CreationDate>
+							<CreatedBy>AppWorks Developer</CreatedBy>
+							<CreationDate>2018-10-02T14:23:54.195</CreationDate>
 							<Notes/>
 							<EncodedExpression>item.qpid(000C29B1EAB5A1E8B0B9BD8078C65518.000C29B1EAB5A1E8B14D833BF9751518)</EncodedExpression>
 							<ErrorMessage> </ErrorMessage>
@@ -4689,30 +4142,30 @@
 							</Entity>
 							<ExpressionOwner>
 								<uri
-									id="000C29B1-EAB5-A1E8-B130-2E9D563ED518"
+									id="000C29B1-EAB5-A1E8-B192-7079FD859518"
 								/>
 							</ExpressionOwner>
 							<ParameterOwner/>
 							<UsedProperties>
 								<PropertyObjectPath
 									type="com.cordys.entity.core.objectpath.PropertyObjectPath"
-									RuntimeDocumentID="000C29B1-EAB5-A1E8-B14D-D8EE95321518">
-									<DocumentID>000C29B1-EAB5-A1E8-B14D-D8EE9531D518</DocumentID>
-									<Name>000C29B1-EAB5-A1E8-B14D-D8EE9531D518</Name>
-									<Description>000C29B1-EAB5-A1E8-B14D-D8EE9531D518</Description>
+									RuntimeDocumentID="000C29B1-EAB5-A1E8-B193-A95655F91518">
+									<DocumentID>000C29B1-EAB5-A1E8-B193-A95655F8D518</DocumentID>
+									<Name>000C29B1-EAB5-A1E8-B193-A95655F8D518</Name>
+									<Description>000C29B1-EAB5-A1E8-B193-A95655F8D518</Description>
 									<CreatedBy>AppWorks Developer</CreatedBy>
-									<CreationDate>2018-10-01T05:04:13.992</CreationDate>
+									<CreationDate>2018-10-02T14:23:54.196</CreationDate>
 									<Notes/>
 									<NumberOfIntermediateRelationships>0</NumberOfIntermediateRelationships>
 									<IntermediateRelationships/>
 									<Object>
 										<uri
-											id="000C29B1-EAB5-A1E8-B130-2E9D563DD518"
+											id="000C29B1-EAB5-A1E8-B193-A95656021518"
 										/>
 									</Object>
 									<ObjectOwner>
 										<uri
-											id="000C29B1-EAB5-A1E8-B130-2E9D563ED518"
+											id="000C29B1-EAB5-A1E8-B192-7079FD859518"
 										/>
 									</ObjectOwner>
 									<PathBegin>
@@ -4732,6 +4185,179 @@
 									</RootOwner>
 								</PropertyObjectPath>
 							</UsedProperties>
+						</EntityExpression>
+					</RuleSetTargetEntityExpression>
+					<UserEntity>
+						<uri
+							id="F8B156E1-0371-11E6-E9CB-0FBF3334DBBF"
+						/>
+					</UserEntity>
+				</Rule>
+				<Rule
+					type="com.cordys.entity.buildingblocks.rule.Rule"
+					typeVersion="F2729367-E095-4216-AAC2-8AE1492A2B6E"
+					RuntimeDocumentID="000C29B1-EAB5-A1E8-B193-A95655F15518">
+					<DocumentID>000C29B1-EAB5-A1E8-B193-A95655F11518</DocumentID>
+					<Name>OnChangeInterestedParty</Name>
+					<Description>OnChangeInterestedParty</Description>
+					<CreatedBy>AppWorks Developer</CreatedBy>
+					<CreationDate>2018-10-02T14:25:03.703</CreationDate>
+					<Notes/>
+					<ActionLogged>false</ActionLogged>
+					<ActionSignedByUser>false</ActionSignedByUser>
+					<AllowChangesFromAnotherEntity>0</AllowChangesFromAnotherEntity>
+					<BusinessProcessReference>000C29B1-EAB5-A1E8-B0BA-052833101518</BusinessProcessReference>
+					<BusinessProcessReferenceName>Util Update Interested Party Emails</BusinessProcessReferenceName>
+					<ButtonVisibility></ButtonVisibility>
+					<DefaultToAdvancedMode>0</DefaultToAdvancedMode>
+					<EnabledOnError>0</EnabledOnError>
+					<Expression></Expression>
+					<IsRuleValid>1</IsRuleValid>
+					<PostRuleActionOption>0</PostRuleActionOption>
+					<PostRuleUrl></PostRuleUrl>
+					<PreRuleActionOption>0</PreRuleActionOption>
+					<PreRuleUrl></PreRuleUrl>
+					<RuleAction>{&quot;processName&quot;:&quot;Util Update Interested Party Emails&quot;,&quot;processId&quot;:&quot;000C29B1-EAB5-A1E8-B0BA-052833101518&quot;,&quot;fillPropertyWithProcessId&quot;:&quot;&quot;,&quot;runOnClient&quot;:false,&quot;runOnTransitionOnly&quot;:false,&quot;type&quot;:&quot;com.opentext.cordys.entityCore.elements.ruleElement.RuleActionStartProcess&quot;,&quot;sourceIsValid&quot;:true,&quot;targetIsValid&quot;:true,&quot;encodedSourceExpression&quot;:&quot;&quot;,&quot;encodedTargetExpression&quot;:&quot;&quot;,&quot;StyleDefinition&quot;:&quot;&lt;style&gt;&lt;background&gt;undefined&lt;/background&gt;&lt;color&gt;undefined&lt;/color&gt;&lt;fontStyle&gt;undefined&lt;/fontStyle&gt;&lt;fontWeight&gt;undefined&lt;/fontWeight&gt;&lt;textDecoration&gt;undefined&lt;/textDecoration&gt;&lt;borderColor&gt;undefined&lt;/borderColor&gt;&lt;labelColor&gt;undefined&lt;/labelColor&gt;&lt;labelFontWeight&gt;undefined&lt;/labelFontWeight&gt;&lt;labelTextDecaration&gt;undefined&lt;/labelTextDecaration&gt;&lt;labelFontStyle&gt;undefined&lt;/labelFontStyle&gt;&lt;/style&gt;&quot;}</RuleAction>
+					<RuleActionFormId></RuleActionFormId>
+					<RuleEventType>10</RuleEventType>
+					<RuleRelationshipId>000C29B1-EAB5-A1E8-B0A4-A5C2667B5518</RuleRelationshipId>
+					<ActionLogMessage/>
+					<BuildingBlock>
+						<uri
+							id="000C29B1-EAB5-A1E8-B0C2-74602CD61518"
+						/>
+					</BuildingBlock>
+					<BusinessProcess>
+						<uri
+							id="000C29B1-EAB5-A1E8-B0BA-0528330FD518"
+						/>
+					</BusinessProcess>
+					<DisplayName>
+						<TranslatableText
+							type="com.cordys.translation.TranslatableText"
+							typeVersion="45C16E88-6F36-465E-B18C-8A01E01D734C"
+							RuntimeDocumentID="000C29B1-EAB5-A1E8-B193-A95655EAD518">
+							<DocumentID>000C29B1-EAB5-A1E8-B193-A95655EA9518</DocumentID>
+							<Name>000C29B1-EAB5-A1E8-B193-A95655EA9518</Name>
+							<Description>000C29B1-EAB5-A1E8-B193-A95655EA9518</Description>
+							<CreatedBy>AppWorks Developer</CreatedBy>
+							<CreationDate>2018-10-02T14:25:03.703</CreationDate>
+							<Notes/>
+							<DeveloperText>On Change Interested Party</DeveloperText>
+							<Identifier>
+								<uri
+									id="000C29B1-EAB5-A1E8-B193-A95655EB1518"
+								/>
+							</Identifier>
+						</TranslatableText>
+					</DisplayName>
+					<InterestedEntities/>
+					<Original/>
+					<RuleActionForm/>
+					<RuleActionMessage/>
+					<RuleEntityExpression>
+						<EntityExpression
+							type="com.cordys.entity.services.entityexpression.EntityExpression"
+							typeVersion="D7105E79-E6B8-4AAB-BEDD-3F9A829B01E5"
+							RuntimeDocumentID="000C29B1-EAB5-A1E8-B193-A95655F0D518">
+							<DocumentID>000C29B1-EAB5-A1E8-B193-A95655F09518</DocumentID>
+							<Name>ruleEntityExpression</Name>
+							<Description>ruleEntityExpression</Description>
+							<CreatedBy>AppWorks Developer</CreatedBy>
+							<CreationDate>2018-10-02T14:25:03.703</CreationDate>
+							<Notes/>
+							<EncodedExpression></EncodedExpression>
+							<ErrorMessage> </ErrorMessage>
+							<HumanExpression></HumanExpression>
+							<IsAdvancedOnly>0</IsAdvancedOnly>
+							<IsPropertyNameOnly>0</IsPropertyNameOnly>
+							<IsValid>1</IsValid>
+							<QueryCriteria></QueryCriteria>
+							<DisplayName/>
+							<Entity>
+								<uri
+									id="000C29B1-EAB5-A1E8-B0A4-A5C2668AD518"
+								/>
+							</Entity>
+							<ExpressionOwner>
+								<uri
+									id="000C29B1-EAB5-A1E8-B193-A95655F11518"
+								/>
+							</ExpressionOwner>
+							<ParameterOwner/>
+							<UsedProperties/>
+						</EntityExpression>
+					</RuleEntityExpression>
+					<RuleProperties/>
+					<RuleRelationship>
+						<uri
+							id="000C29B1-EAB5-A1E8-B0A4-A5C2667B1518"
+						/>
+					</RuleRelationship>
+					<RuleSetSourceEntityExpression>
+						<EntityExpression
+							type="com.cordys.entity.services.entityexpression.EntityExpression"
+							typeVersion="D7105E79-E6B8-4AAB-BEDD-3F9A829B01E5"
+							RuntimeDocumentID="000C29B1-EAB5-A1E8-B193-A95655EFD518">
+							<DocumentID>000C29B1-EAB5-A1E8-B193-A95655EF9518</DocumentID>
+							<Name>ruleSetSourceEntityExpression</Name>
+							<Description>ruleSetSourceEntityExpression</Description>
+							<CreatedBy>AppWorks Developer</CreatedBy>
+							<CreationDate>2018-10-02T14:25:03.703</CreationDate>
+							<Notes/>
+							<EncodedExpression></EncodedExpression>
+							<ErrorMessage></ErrorMessage>
+							<HumanExpression></HumanExpression>
+							<IsAdvancedOnly>0</IsAdvancedOnly>
+							<IsPropertyNameOnly>0</IsPropertyNameOnly>
+							<IsValid>1</IsValid>
+							<QueryCriteria></QueryCriteria>
+							<DisplayName/>
+							<Entity>
+								<uri
+									id="000C29B1-EAB5-A1E8-B0A4-A5C2668AD518"
+								/>
+							</Entity>
+							<ExpressionOwner>
+								<uri
+									id="000C29B1-EAB5-A1E8-B193-A95655F11518"
+								/>
+							</ExpressionOwner>
+							<ParameterOwner/>
+							<UsedProperties/>
+						</EntityExpression>
+					</RuleSetSourceEntityExpression>
+					<RuleSetTargetEntityExpression>
+						<EntityExpression
+							type="com.cordys.entity.services.entityexpression.EntityExpression"
+							typeVersion="D7105E79-E6B8-4AAB-BEDD-3F9A829B01E5"
+							RuntimeDocumentID="000C29B1-EAB5-A1E8-B193-A95655F05518">
+							<DocumentID>000C29B1-EAB5-A1E8-B193-A95655F01518</DocumentID>
+							<Name>ruleSetTargetEntityExpression</Name>
+							<Description>ruleSetTargetEntityExpression</Description>
+							<CreatedBy>AppWorks Developer</CreatedBy>
+							<CreationDate>2018-10-02T14:25:03.703</CreationDate>
+							<Notes/>
+							<EncodedExpression></EncodedExpression>
+							<ErrorMessage></ErrorMessage>
+							<HumanExpression></HumanExpression>
+							<IsAdvancedOnly>0</IsAdvancedOnly>
+							<IsPropertyNameOnly>0</IsPropertyNameOnly>
+							<IsValid>1</IsValid>
+							<QueryCriteria></QueryCriteria>
+							<DisplayName/>
+							<Entity>
+								<uri
+									id="000C29B1-EAB5-A1E8-B0A4-A5C2668AD518"
+								/>
+							</Entity>
+							<ExpressionOwner>
+								<uri
+									id="000C29B1-EAB5-A1E8-B193-A95655F11518"
+								/>
+							</ExpressionOwner>
+							<ParameterOwner/>
+							<UsedProperties/>
 						</EntityExpression>
 					</RuleSetTargetEntityExpression>
 					<UserEntity>
