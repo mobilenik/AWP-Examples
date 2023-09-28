@@ -47,6 +47,7 @@
 			type="com.cordys.cws.runtime.types.folder.StudioFolder"
 		/>
 	</SourceFolder>
+	<!--
 	<_AddOns>
 		<TranslationInformation
 			type="com.cordys.translation.TranslationInformation"
@@ -99,4 +100,5 @@
 			<TranslationInformation/>
 		</TranslationInformation>
 	</_AddOns>
+	-->
 </Project>
